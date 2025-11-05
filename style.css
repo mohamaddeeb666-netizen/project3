@@ -1,0 +1,2680 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+     font-family: "Poppins", sans-serif;
+     font-size: 10px;
+}
+
+header{
+    padding: 0.3rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 241, 241);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 90%;
+    z-index: 1000;
+}
+
+header h3{
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+header h3:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+
+header nav ul{
+    display: flex;  
+    /* gap: 3rem; */
+}
+
+header nav ul li{
+    list-style-type: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+       
+}
+
+header nav ul li a:hover{
+    color: rgb(250, 35, 35);
+    transform: scale(1.1);
+}
+
+header nav ul li:hover{
+    background-color: rgb(216, 212, 212);
+    transform: scale(1.08);
+}
+
+header nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+header nav div img{
+    width: 35px;
+    height: 33px;
+    background-color: rgb(212, 211, 211);
+    border-radius: 50%;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+header nav div h4{
+    cursor: pointer;
+    transition: 0.6s;
+}
+header nav div h4:hover{
+    color: red;
+}
+
+header nav div a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+header nav div .one{
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    margin-left: 2rem;
+    transition: 0.6s;
+}
+
+header nav div .one:hover{
+    border: 3px solid rgb(2, 2, 148);
+    color: red;
+}
+
+header nav div .two{
+    background-color: rgb(2, 2, 71);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem  1.5rem;
+    transition: 0.6s;
+}
+
+header nav div .two:hover{
+    background-color: rgb(2, 2, 148);
+    color: red;
+
+}
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 1
+--------------------------------------------------*/
+
+
+
+
+
+.travel1{
+    padding: 5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel1 .containertexts{
+    width: 45%;
+}
+
+.travel1 .containertexts img{
+    width: 30px;
+    height: auto;
+}
+.travel1 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.travel1 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel1 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+h1{
+    font-size: 4.8rem;
+    line-height: 6rem;
+}
+
+h2{
+    font-size: 4.5rem;
+    line-height: 6rem;
+}
+
+.travel1 .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+}
+
+.travel1 .containertexts .containerlocation{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 2.5rem;
+    width: 120%;
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: 2px groove rgba(180, 180, 180,0.1);
+    border-radius: 20px;
+    opacity: 90%;
+    background-color: rgba(250, 248, 248,0.3);
+    box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.travel1 .containertexts .containerlocation img{
+    width: 50px;
+    height: auto;
+    margin-left: 1rem;
+    background-color: rgb(203, 214, 214);
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+
+.travel1 .containertexts .containerlocation .line{
+background-color: rgb(164, 165, 165);
+height: 50px;
+width: 3px;
+}
+
+.travel1 .containertexts .containerlocation .text p{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+}
+
+
+.travel1 .containertexts .containerlocation a{
+    text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem  1.5rem;
+    margin-left: 2rem;
+    transition: 0.6s;
+}
+
+.travel1 .containertexts .containerlocation a:hover{
+    background-color: rgb(2, 2, 148);
+    color: red;
+
+}
+
+
+.travel1 .containerimages{
+    width: 50%;
+    display: flex;
+}
+
+.travel1 .containerimages .img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+}
+
+.travel1 .containerimages .img1 .text1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position:absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3);
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    margin: 120px 150px 0 0;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.travel1 .containerimages .img1 .text1 .bold{
+    font-size: 1.2rem;
+}
+
+
+.travel1:has(.one:hover) .text1{
+    filter: blur(1.5px);
+    transform: translateX(-65px);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img1 .text1 .p{
+    color: rgb(131, 143, 90);
+    margin-left: 10px;
+}
+
+.travel1 .containerimages .img2 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* right: 0; */
+    margin-top: 6rem;
+}
+
+
+.travel1 .containerimages .img2 .text2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position:absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3);
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    margin: -30px 0 0 50px;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+
+.travel1:has(.two:hover) .text2{
+    filter: blur(1.5px);
+    transform: translateY(-28px);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img2 .text2 .bold{
+    font-size: 1.2rem;
+}
+
+.travel1 .containerimages .img2 .text2 .p{
+    color: rgb(131, 143, 90);
+}
+
+
+.travel1 .containerimages img{ 
+    margin: 1rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.travel1 .containerimages .img1 .one{
+    width: 19rem;
+    height: 24rem;
+}
+
+.travel1 .containerimages .img1 .three{
+    width: 29rem;
+    height: auto;
+}
+
+.travel1 .containerimages .img2 .two{
+    width: 29rem;
+    height: 23rem;
+}
+
+.travel1 .containerimages .img2 .four{
+    height: 24rem;
+    width: 20rem;
+}
+
+.travel1 .containerimages img:hover{
+    transform: scale(1.1);
+}
+.travel1:has(.three:hover) .containerlocation{
+    filter: blur(2px);
+    transform: translateX(-70px);
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 2
+--------------------------------------------------*/
+
+
+.travel2{
+    display: flex;
+    padding: 5rem 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel2 .containerimages{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.travel2 .containerimages:hover{
+    transform: scale(1.1);
+}
+
+.travel2:has(.containerimages:hover) .img2{
+    /* filter: blur(4px); */
+    margin-left: 25.2rem;
+}
+
+
+.travel2:has(.containerimages:hover) .img3{
+    /* filter: blur(4px); */
+    margin-left: 45.3rem;
+}
+
+.travel2 .containerimages .img1{
+    width: 25rem;
+    height: 40rem;
+    border-radius: 20px;
+    transform: skewY(5deg);
+    margin: 1px;
+    position: absolute;
+    transition: 1s;
+}
+
+.travel2 .containerimages .img2{
+     width: 20rem;
+    height: 30rem;
+    border-radius: 20px;
+    transform: skewY(5deg);
+    margin: 1px;
+    margin-left: 15rem;
+    position: absolute;
+    transition: 1s;
+}
+
+.travel2 .containerimages .img3{
+     width: 15rem;
+    height: 20srem;
+    border-radius: 20px;
+    transform: skewY(5deg);
+    margin: 1px;
+    margin-left: 30rem;
+    position: absolute;
+    transition: 1s;
+}
+
+
+
+.travel2 .containertexts{
+    width: 45%;
+}
+
+
+.travel2 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.travel2 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel2 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+
+
+.travel2 .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+}
+
+.travel2 .containertexts .type1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.travel2 .containertexts .type1 .text{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 1rem 2.5rem;
+    border: 2px groove rgba(180, 180, 180,0.1);
+    border-radius: 15px;
+    opacity: 90%;
+    background-color: rgba(250, 248, 248,0.3);
+    box-shadow:10px 10px 10px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.travel2 .containertexts .type1 .text .t1 h4{
+    font-size: 1.4rem;
+}
+
+.travel2 .containertexts .type1 .text .t1 p{
+     font-size: 0.8rem;
+     color: rgb(131, 143, 90);
+     margin-top: 0.3rem;
+}
+
+.travel2 .containertexts .type1 .text img{
+    /* position: absolute; */
+    rotate: 40deg;
+    background-color: rgb(230, 224, 224);
+    border-radius: 60%;
+    padding: -50px;
+    width: 25px;
+    height: 25px;
+    margin-left: 1rem;
+    margin-right: -1rem;
+    transition: 0.4s;
+}
+
+.travel2 .containertexts .type1 .text img:hover{
+    transform: scale(1.1);
+    background-color: rgb(207, 203, 203);
+}
+
+.travel2 .containertexts .type1 a{
+    text-decoration: none;
+    transition: 1s;
+}
+
+.travel2 .containertexts .type1 a:hover{
+    transform: scale(1.2);
+}
+
+.travel2 .containertexts .type1 .to{
+    color: white;
+    background-color: rgb(2, 2, 71);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 0rem 0.8rem;
+    transition: 1s;
+}
+
+.travel2 .containertexts .type1 .to:hover{
+    background-color: rgb(2, 2, 148);
+    color: red;
+    transform: scale(1.1);
+}
+
+
+.travel2 .containertexts .type2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.travel2 .containertexts .type2 .book{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white;
+    padding: 0.8rem 2rem ;
+    margin-left: 3rem;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.travel2 .containertexts .type2 .book:hover{
+    color: red;
+    background-color: rgb(2, 2, 148);
+}
+
+.travel2 .containertexts .type2 .book h4{
+    letter-spacing: 0.2rem
+}
+
+.travel2 .containertexts .type2 .book img{
+    rotate: 270deg;
+    width: 1.7rem;
+    height: 2.6rem;
+}
+
+.travel2 .containertexts .type2 .learn{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(6, 6, 117);
+    margin-right: 5rem;
+}
+
+.travel2 .containertexts .type2 .learn h5{
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.travel2 .containertexts .type2 .learn h5:hover{
+    color: red;
+}
+
+.travel2 .containertexts .type2 .learn img{
+    width: 4rem;
+}
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 3
+--------------------------------------------------*/
+
+
+
+
+
+
+
+.travel3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 5%;
+}
+
+
+.travel3 .containertexts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.travel3 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.travel3 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel3 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+
+
+.travel3 .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+.travel3 .containerimages{
+    width: 100%;
+    margin: 4rem 0;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  */
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    transition: 1s;
+}
+
+.travel3 .containerimages .img1{
+    display: flex;
+    position: relative;
+    /* text-align: center; */
+    transition: 1s;
+}
+
+.travel3 .containerimages .img1:hover{
+    transform: scale(1.05);
+}
+
+.travel3 .containerimages .img1 img{
+    width: 24rem;
+    height: 45rem;
+    border-radius: 20px;
+}
+
+.travel3 .containerimages .img1 .ti-arrows-corner{
+    color: white;
+    position: absolute;
+    font-size: 3rem;
+    transform: translateY(-17rem);
+    rotate: 90deg;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.travel3 .containerimages .img1 .ti-arrows-corner:hover{
+    color: red;
+}
+
+.travel3 .containerimages .img1 h4{
+    position: absolute;
+    color: white;
+    transform: translateY(33rem) translateX(2rem);
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.travel3 .containerimages .img1 h4:hover{
+    color: red;
+}
+
+
+.travel3 .containerimages .img2{
+    display: flex;    
+    position: relative;
+    transition: 1s;
+}
+
+.travel3 .containerimages .img2:hover{
+    transform: scale(1.05);
+}
+
+.travel3 .containerimages .img2 img{
+    width: 24rem;
+    height: 38rem;
+    border-radius: 20px;
+}
+
+.travel3 .containerimages .img2 .ti-arrows-corner{
+    color: white;
+    position: absolute;
+    font-size: 3rem;
+    transform: translateY(-17rem);
+    rotate: 90deg;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+.travel3 .containerimages .img2 .ti-arrows-corner:hover{
+    color: red;
+}
+
+.travel3 .containerimages .img2 h2{
+    position: absolute;
+    color: white;
+    display: flex;
+    transform: translateY(31rem) translateX(2rem);
+    transition: 0.7s;
+}
+
+.travel3 .containerimages .img2 h2:hover{
+    color: red;
+}
+
+.travel3 .containerimages .img2 .ti-control-record{
+    font-size: 2rem;
+    transform: translateY(0.5rem);
+}
+
+.travel3 .containerimages .img2 .sunny{
+    font-size: 2rem;
+}
+
+
+
+
+
+.travel3 .containerimages .img3{
+    /* width: 20%; */
+    position: relative;
+    display: flex;
+}
+
+.travel3 .containerimages .img3 img{
+    width: 24rem;
+    height: 35rem;
+    border-radius: 20px;
+}
+
+.travel3 .containerimages .img3 .i1{
+    position: absolute;
+    transform: translateX(3rem) translateY(1.5rem);
+    width: 3.5rem;
+    height: 3.7rem;
+}
+
+.travel3 .containerimages .img3 .i2{
+    position: absolute;
+    transform: translateX(5rem) translateY(1.5rem);
+    width: 3.5rem;
+    height: 3.7rem;
+}
+
+.travel3 .containerimages .img3 .i3{
+    position: absolute;
+    transform: translateX(7rem) translateY(1.5rem);
+    width: 3.5rem;
+    height: 3.7rem;
+}
+
+.travel3 .containerimages .img3 .i4{
+    position: absolute;
+    transform: translateX(9rem) translateY(1.5rem);
+    width: 3.5rem;
+    height: 3.7rem;
+}
+
+.travel3 .containerimages .img3 .i5{
+    position: absolute;
+    transform: translateY(21rem) translateX(3rem);
+}
+
+.travel3 .containerimages .img3 .i5 img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.travel3 .containerimages .img3 .i6{
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    transform: translateY(28rem) translateX(3rem);
+    position: absolute;
+}
+
+
+.travel3 .containerimages .img4{
+    /* width: 40%; */
+    display: flex;
+    position: relative;
+    transition: 1s;
+}
+
+.travel3 .containerimages .img4:hover{
+    transform: scale(1.03);
+}
+
+.travel3 .containerimages .img4 img{
+    width:46rem;
+    height: 42rem;
+    border-radius: 20px;
+    right: 0;
+}
+
+.travel3 .containerimages .img4 .span{
+    position: absolute;
+    display: flex;
+    transform: translateX(2rem) translateY(1.5rem);
+    gap: 0.5rem;
+}
+
+.travel3 .containerimages .img4 .span span{
+    width: 8rem;
+    height: 0.5rem;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.travel3 .containerimages .img4 .span .s1{
+    background-color: white;
+}
+
+.travel3 .containerimages .img4 p{
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    transform: translateX(3rem) translateY(34rem);
+    transition: 1s;
+}
+
+.travel3 .containerimages .img4 p:hover{
+    color: red;
+}
+
+.travel3 .containerimages .img4 .d1{
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    opacity: 80%;
+    padding: 0.5rem 1.5rem;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid gray;
+     transform: translateX(35rem) translateY(35rem);
+    transition: 1s;
+}
+
+.travel3 .containerimages .img4 .d1:hover{
+    border: 2px solid rgb(241, 237, 237);
+}
+
+.travel3 .containerimages .img4 .d2{
+    position: absolute;
+    cursor: pointer;
+    font-size: 2rem;
+    color: gray;
+    opacity: 80%;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+     transform: translateX(40rem) translateY(35rem);
+    transition: 1s;
+}
+
+.travel3 .containerimages .img4 .d2:hover{
+    border: 2px solid gray;
+}
+
+.travel3 .containerimages img{
+    width: 30rem;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 4
+--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.travel4{
+    display: flex;
+    padding: 5rem 5%;
+    width: 100%;
+    height: 50rem;
+    justify-content: space-between;
+}
+
+.travel4 .one{
+    width: 47%;
+    height: 100%;
+    position: relative;
+    perspective: 1000px;
+}
+
+.travel4 .one .oneone{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.travel4 .one:hover .oneone{
+    transform: rotateY(180deg);
+}
+
+.travel4 .one .oneone .containerimages{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.travel4 .one .oneone .containerimages img{
+    width: 56.5rem;
+    height: 40rem;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.travel4 .one .oneone .containertexts{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(180, 178, 178); */
+    position: absolute;
+    border-radius: 20px;
+     background-color: rgb(240, 240, 240);
+    /* border: 2px solid gray; */
+    padding: 2.5rem 1.8rem 1.8rem 1.8rem;
+
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+
+.travel4 .one .oneone .containertexts .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.7rem;
+}
+
+.travel4 .one .oneone .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel4 .one .oneone .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+.travel4 .one .oneone .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.travel4 .one .oneone .containertexts  .book{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 16rem;
+    text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white;
+    padding: 0.8rem 2rem ;
+    margin-left: 3rem;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.travel4 .one .oneone .containertexts .book:hover{
+    color: red;
+    background-color: rgb(2, 2, 148);
+}
+
+.travel4 .one .oneone .containertexts .book h4{
+    letter-spacing: 0.2rem
+}
+
+.travel4 .one .oneone .containertexts .book img{
+    rotate: 270deg;
+    width: 1.7rem;
+    height: 2.6rem;
+}
+
+
+.travel4 .two{
+     width: 47%;
+    height: 100%;
+    position: relative;
+    perspective: 1000px;
+}
+
+.travel4 .two .twotwo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+
+.travel4 .two:hover .twotwo{
+    transform: rotateY(180deg);
+    /* filter: brightness(200%); */
+}
+
+.travel4 .two .twotwo .containertexts{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    /* background-color: rgb(218, 216, 216); */
+    background-color: rgb(240, 240, 240);
+    /* border: 2px solid gray; */
+    padding: 2.5rem 1.8rem 1.8rem 1.8rem;
+
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.travel4 .hh1{
+    font-size: 4.5rem;
+    margin-bottom: -0.6rem;
+}
+
+.travel4 .hh2{
+    font-size: 3.5rem;
+}
+
+.travel4 .two .twotwo .containertexts .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.7rem;
+}
+
+.travel4 .two .twotwo .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel4 .two .twotwo .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+.travel4 .two .twotwo .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.travel4 .two .twotwo .containertexts  .book{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 16rem;
+    text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white;
+    padding: 0.8rem 2rem ;
+    margin-left: 3rem;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.travel4 .two .twotwo .containertexts .book:hover{
+    color: red;
+    background-color: rgb(2, 2, 148);
+}
+
+.travel4 .two .twotwo .containertexts .book h4{
+    letter-spacing: 0.2rem
+}
+
+.travel4 .two .twotwo .containertexts .book img{
+    rotate: 270deg;
+    width: 1.7rem;
+    height: 2.6rem;
+}
+
+.travel4 .two .twotwo .containerimages{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 0s;
+}
+
+.travel4 .two .twotwo .containerimages img{
+    width: 56.5rem;
+    height: 40rem;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 4
+--------------------------------------------------*/
+
+/*
+.travel4{
+    display: flex;
+    padding: 5rem 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel4 .containerimages{
+    width: 45%;
+   
+    transition: 1s;
+}
+
+.travel4 .containerimages img{
+    width: 60rem;
+    height: 40rem;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.travel4 .containerimages img:hover{
+    transform: scale(1.05);
+}
+
+
+.travel4 .containertexts{
+    width: 45%;
+}
+
+
+.travel4 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.7rem;
+}
+
+.travel4 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel4 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+
+
+.travel4 .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.travel4 .containertexts  .book{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 16rem;
+    text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white;
+    padding: 0.8rem 2rem ;
+    margin-left: 3rem;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.travel4 .containertexts .book:hover{
+    color: red;
+    background-color: rgb(2, 2, 148);
+}
+
+.travel4 .containertexts .book h4{
+    letter-spacing: 0.2rem
+}
+
+.travel4 .containertexts .book img{
+    rotate: 270deg;
+    width: 1.7rem;
+    height: 2.6rem;
+}*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 5
+--------------------------------------------------*/
+
+
+.travel5{
+    display: flex;
+    padding: 5rem 5%;
+    justify-content: space-between;
+    align-items:start;
+}
+
+.travel5 .one{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s;
+}
+
+
+.travel5 .one:hover{
+    transform: scale(1.05);
+}
+
+.travel5 .one .m1{
+    position: relative;
+    width: 30rem;
+    height: 26rem;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.travel5 .one h5{
+    transform: translateX(2rem) translateY(20rem);
+    font-size: 2rem;
+    color: white;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.travel5 .one h5:hover{
+    color: red;
+}
+
+.travel5 .one h5 img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.travel5 .one h4{
+    font-size: 3.5rem;
+    position: relative;
+    transition: 1s;
+    margin-bottom: 3rem;
+}
+
+.travel5 .one .d1{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 1rem;
+    opacity: 90%;
+    transform: translateX(24rem) translateY(39rem); 
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    border: 2px solid gray;
+    transition: 0.8s;
+}
+
+
+.travel5 .one .d1:hover{
+    border: 2px solid white;
+}
+
+
+
+.travel5 .two{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s;
+}
+
+
+.travel5 .two:hover{
+    transform: scale(1.05);
+}
+
+.travel5 .two .m2{
+    position: relative;
+    width: 35rem;
+    height: 45rem;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.travel5 .two h5{
+    transform: translateX(2rem) translateY(1rem);
+    font-size: 2rem;
+    color: white;
+    gap: 0.5rem;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.travel5 .two h5:hover{
+    color: red;
+}
+
+.travel5 .two h5 img{
+    width: 5.2rem;
+    height: 3.5rem;
+}
+
+.travel5 .two .d2{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 1rem;
+    opacity: 90%;
+    cursor: pointer;
+    transform: translateX(29.5rem) translateY(39.5rem); 
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid gray;
+    transition: 0.8s;
+}
+
+
+.travel5 .two .d2:hover{
+    border: 2px solid white;
+}
+
+
+
+.travel5 .three{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s;
+}
+
+
+.travel5 .three:hover{
+    transform: scale(1.05);
+}
+
+.travel5 .three .m3{
+    position: relative;
+    width: 30rem;
+    height: 45rem;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.travel5 .three h5{
+    transform: translateX(2rem) translateY(1rem);
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.travel5 .three h5:hover{
+    color: red;
+}
+
+.travel5 .three h5 img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.travel5 .three .d3{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 1rem;
+    opacity: 90%;
+    cursor: pointer;
+    transform: translateX(24.5rem) translateY(39.5rem); 
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid gray;
+    transition: 0.8s;
+}
+
+
+.travel5 .three .d3:hover{
+    border: 2px solid white;
+}
+
+
+
+
+.travel5 .four{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s;
+}
+
+
+.travel5 .four:hover{
+    transform: scale(1.05);
+}
+
+.travel5 .four .m4{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.travel5 .four h5{
+    transform: translateX(1.2rem) translateY(0.9rem);
+    font-size: 1.6rem;
+    color: white;
+    gap: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s;
+}
+
+.travel5 .four h5:hover{
+    color: red;
+}
+
+.travel5 .four h5 img{
+    width: 4.2rem;
+    height: 3rem;
+}
+
+.travel5 .four .d4{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 0.8rem;
+    opacity: 90%;
+    cursor: pointer;
+    transform: translateX(15.3rem) translateY(15.3rem); 
+    width: 3.3rem;
+    height: 3.3rem;
+    border: 2px solid gray;
+    transition: 0.8s;
+}
+
+
+.travel5 .four .d4:hover{
+    border: 2px solid white;
+}
+
+.travel5 .four p{
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    color: rgb(131, 143, 90);
+    width: 20rem;
+    letter-spacing: 0.05rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 6
+--------------------------------------------------*/
+
+
+
+
+
+
+
+
+.travel6{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    padding: 5rem 5%;
+}
+
+
+.travel6 .containertexts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.travel6 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.travel6 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel6 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+.travel6 .containertexts .pp{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+.travel6 .containerimages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel6 .containerimages p{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-left: 2rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.travel6 .containerimages p img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.3rem;
+}
+
+.travel6 .containerimages .hh1{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.travel6 .containerimages .hh2{
+    display:inline;
+    color: red;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+
+.travel6 .containerimages .hh3{
+    display: inline;
+    font-size: 1.5rem;
+} 
+
+.travel6 .containerimages .one{
+    transition: 1s;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.travel6 .containerimages .one:hover{
+    transform: scale(1.03);
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.travel6 .containerimages .one .ho1{
+    width: 34rem;
+    height: 25rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.travel6 .containerimages .two{
+    transition: 1s;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.travel6 .containerimages .two:hover{
+    transform: scale(1.02);
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.travel6 .containerimages .two .ho2{
+     width: 50rem;
+    height: 25rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.travel6 .containerimages .three{
+    transition: 1s;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.travel6 .containerimages .three:hover{
+    transform: scale(1.03);
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.travel6 .containerimages .three .ho3{
+     width: 34rem;
+    height: 25rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 7
+--------------------------------------------------*/
+
+
+
+
+
+
+
+
+.travel7{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 5rem 5%;
+}
+
+
+.travel7 .containertexts{
+    /* width: 50%; */
+    display: inline;
+    position: relative;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 2rem;
+}
+
+
+.travel7 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.travel7 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel7 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+.travel7 .containertexts .q{
+    font-size: 4rem;
+}
+
+.travel7 .containertexts .pp{
+    display: inline;
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 1rem;
+    /* text-align: center; */
+}
+
+.travel7 .containertexts  .more{
+    display:inline-block;
+    transform: translateX(71rem);
+    text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    /* margin-left: 2rem; */
+    transition: 0.6s;
+}
+
+.travel7 .containertexts  .more:hover{
+    border: 3px solid rgb(2, 2, 148);
+    color: red;
+}
+
+
+
+
+
+.travel7 .containerimages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel7 .containerimages .one{
+    position: relative;
+    display: flex;
+    transition: 1s;
+}
+
+
+.travel7 .containerimages .one:hover{
+    transform: scale(1.03);
+}
+
+.travel7 .containerimages .one .m1{
+    position: relative;
+    width: 59rem;
+    height: 35rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.travel7 .containerimages .one .hh1{
+    position: absolute;
+    font-size: 3rem;
+    transform: translateX(2.3rem) translateY(2rem);
+    color: white;
+    transition: 1s;
+}
+
+.travel7:has(.one:hover) .hh1{
+    color: red;
+}
+
+.travel7 .containerimages .one .p1{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(7rem);
+}
+
+.travel7:has(.one:hover) .p1{
+    color: red;
+}
+
+.travel7 .containerimages .one .p2{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(9rem);
+}
+
+.travel7:has(.one:hover) .p2{
+    color: red;
+}
+
+
+
+.travel7 .containerimages .two{
+    position: relative;
+    transition: 1s;
+    display: flex;
+}
+
+.travel7 .containerimages .two:hover{
+    transform: scale(1.03);
+}
+
+.travel7 .containerimages .two .m2{
+    width: 59rem;
+    height: 35rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.travel7 .containerimages .two .hh21{
+    position: absolute;
+    font-size: 3rem;
+    transform: translateX(2.3rem) translateY(2rem);
+    color: white;
+    transition: 1s;
+}
+
+.travel7:has(.two:hover) .hh21{
+    color: red;
+}
+
+.travel7 .containerimages .two .hh22{
+    position: absolute;
+    font-size: 3rem;
+    transform: translateX(2.3rem) translateY(6rem);
+    color: white;
+    transition: 1s;
+}
+
+.travel7:has(.two:hover) .hh22{
+    color: red;
+}
+
+.travel7 .containerimages .two .p21{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(11rem);
+}
+
+.travel7:has(.two:hover) .p21{
+    color: red;
+}
+
+.travel7 .containerimages .two .p22{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(13rem);
+}
+
+.travel7:has(.two:hover) .p22{
+    color: red;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 8
+--------------------------------------------------*/
+
+
+
+
+
+
+
+
+.travel8{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 5rem 5%;
+}
+
+
+.travel8 .containertexts{
+    /* width: 50%; */
+    display: inline;
+    position: relative;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 2rem;
+}
+
+
+.travel8 .containertexts .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.travel8 .containertexts .brand h5{
+    color: rgb(1, 1, 44);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.travel8 .containertexts .brand .line{
+    background-color: rgb(1, 1, 44);
+    width: 30px;
+    height: 3px;
+}
+
+.travel8 .containertexts .q{
+    font-size: 4rem;
+}
+
+.travel8 .containertexts .pp{
+    display: inline;
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-top: 1rem;
+    /* text-align: center; */
+}
+
+.travel8 .containertexts  .more{
+    display:inline-block;
+    transform: translateX(33rem);
+    text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    /* margin-left: 2rem; */
+    transition: 0.6s;
+}
+
+.travel8 .containertexts  .more:hover{
+    border: 3px solid rgb(2, 2, 148);
+    color: red;
+}
+
+
+
+
+.travel8 .containerimages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel8 .containerimages p{
+    font-size: 1.2rem;
+    color: rgb(131, 143, 90);
+    margin-left: 2rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.travel8 .containerimages p img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.3rem;
+}
+
+.travel8 .containerimages .one{
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.travel8 .containerimages .one:hover{
+    transform: scale(1.03);
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.travel8 .containerimages .one .m1{
+    width: 34rem;
+    height: 25rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.travel8 .containerimages .one .hr1{
+    width: 3.25rem;
+    height: 3rem;
+    position: absolute;
+    background-color: rgb(95, 95, 95);
+    padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%;
+    transform: translateX(30rem) translateY(2rem);
+    /* z-index: 100; */
+}
+
+.travel8 .containerimages .hh1{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+}
+
+.travel8 .containerimages .bdt1{
+    display:inline;
+    color: red;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.travel8 .containerimages .two{
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.travel8 .containerimages .two:hover{
+    transform: scale(1.02);
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.travel8 .containerimages .two .m2{
+    width: 34rem;
+    height: 25rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.travel8 .containerimages .two .hr2{
+    width: 3.25rem;
+    height: 3rem;
+    position: absolute;
+    background-color: rgb(95, 95, 95);
+    padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%;
+    transform: translateX(30rem) translateY(2rem);
+    /* z-index: 100; */
+}
+
+.travel8 .containerimages .hh2{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+}
+
+.travel8 .containerimages .bdt2{
+    display:inline;
+    color: red;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.travel8 .containerimages .three{
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.travel8 .containerimages .three:hover{
+    transform: scale(1.03);
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.travel8 .containerimages .three .m3{
+    width: 50rem;
+    height: 25rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.travel8 .containerimages .three .hr3{
+    width: 3.25rem;
+    height: 3rem;
+    position: absolute;
+    background-color: rgb(95, 95, 95);
+    padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%;
+    transform: translateX(46rem) translateY(2rem);
+    /* z-index: 100; */
+}
+
+.travel8 .containerimages .hh3{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+}
+
+.travel8 .containerimages .bdt3{
+    display:inline;
+    color: red;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------travel 9
+--------------------------------------------------*/
+
+
+
+
+
+
+
+
+.travel9{
+    display: flex;
+    padding: 5rem 0.25rem 0 0.25rem;
+}
+
+.travel9 .one{
+    display: flex;
+    flex-direction: column;
+}
+
+.travel9 .one .one1{
+    display: flex;
+    flex-direction: column;
+}
+
+.travel9 .one .one1 img{
+    margin: 0.25rem;
+    border-radius: 15px;
+    width: 44rem;
+    height: 24rem;
+    transition: 1s;
+}
+
+.travel9 .one .one1 .ti-world{
+    position: absolute;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.6rem;
+    font-size: 1.7rem;
+    transform: translateX(2rem) translateY(2rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .ti-world:hover{
+    color: red;
+}
+.one:has(.ti-world:hover) .one1 img{
+    filter: blur(2px);
+}
+
+.travel9 .one .one1 .h41{
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    transform: translateX(2rem) translateY(6rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .h41:hover{
+    color: red;
+}
+.one:has(.h41:hover) .one1 img{
+    filter: blur(2px);
+}
+
+.travel9 .one .one1 .h42{
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    transform: translateX(6rem) translateY(10rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .h42:hover{
+    color: red;
+}
+.one:has(.h42:hover) .one1 img{
+    filter: blur(2px);
+}
+
+.travel9 .one .one1 .p11{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    transform: translateX(4rem) translateY(14rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .p11:hover{
+    color: red;
+}
+.travel9:has(.h41:hover) .h42{
+    color: red;
+}
+.travel9:has(.h41:hover) .p11{
+    color: red;
+}
+.travel9:has(.h42:hover) .h41{
+    color: red;
+}
+.travel9:has(.h42:hover) .p11{
+    color: red;
+}
+.travel9:has(.p11:hover) .h41{
+    color: red;
+}
+.travel9:has(.p11:hover) .h42{
+    color: red;
+}
+.one:has(.p11:hover) .one1 img{
+    filter: blur(2px);
+}
+
+.travel9 .one .one1 .book{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    opacity: 60%;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid rgb(2, 2, 71);
+    transform: translateX(2rem) translateY(17rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .book:hover{
+    border: 2px solid red;
+}
+
+.travel9 .one .one1 .book .h4b{
+    display: flex;
+    font-size: 1.5rem;
+    color: rgb(2, 2, 71);
+    transition: 1s;
+}
+
+.travel9 .one .one1 .book .ti-arrow-right{
+    color: rgb(2, 2, 71);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transition: 1s;
+}
+
+.one1:has(.book:hover) .book .h4b{
+    color: red;
+}
+.one1:has(.book:hover) .book .ti-arrow-right{
+    color: red;
+}
+.one:has(.book:hover) .one1 img{
+    filter: blur(2px);
+}
+
+.travel9 .one .one2{
+    display: flex;
+    flex-direction: column;
+}
+
+.travel9 .one .one2 img{
+    margin: 0.25rem;
+    border-radius: 15px;
+    width: 44rem;
+    height: 18rem;
+    transition: 1s;
+}
+
+.travel9 .one .one2 .pp{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transform: translateX(2rem) translateY(9rem);
+    transition: 1s;
+}
+.travel9 .one .one2 .pp:hover{
+    color: red;
+}
+.one:has(.pp:hover) .one2 img{
+    filter: blur(2px);
+}
+
+
+.travel9 .one .one2 .h33{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    transform: translateX(2rem) translateY(12rem);
+    transition: 1s;
+}
+.travel9 .one .one2 .h33:hover{
+    color: red;
+}
+.one2:has(.h33:hover) .pp{
+    color: red;
+}
+.one2:has(.pp:hover) .h33{
+    color: red;
+}
+.one:has(.h33:hover) .one2 img{
+    filter: blur(2px);
+}
+
+.travel9 .two{
+    display: flex;
+    flex-direction: column;
+}
+
+.travel9 .two img{
+    margin: 0.25rem;
+    border-radius: 15px;
+    width: 88.75rem;
+    height: 42.5rem;
+    transition: 1s;
+}
+
+.travel9 .two .h31{
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    font-size: 2.6srem;
+    letter-spacing: 0.2rem;
+    transform: translateX(20rem) translateY(20rem);
+    transition: 1s;
+}
+.travel9 .two .h31:hover{
+    color: red;
+}
+.travel9:has(.h31:hover) .h32{
+    color: red;
+}
+.two:has(.h31:hover) img{
+    filter: blur(3px);
+}
+.two:has(.h32:hover) img{
+    filter: blur(3px);
+}
+
+.travel9 .two .h32{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 2.6rem;
+    letter-spacing: 0.2rem;
+    transform: translateX(28rem) translateY(25rem);
+    transition: 1s;
+}
+.travel9 .two .h32:hover{
+    color: red;
+}
+.travel9:has(.h32:hover) .h31{
+    color: red;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------
+----------------footer
+--------------------------------------------------*/
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 30rem;
+    margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+    background-color: black;
+    border-radius: 15px;
+}
+
+footer .one{
+    width: 44rem;
+    padding: 1.3rem 1.5rem;
+}
+
+footer .one h3{
+    color: white;
+    display: inline-block;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    transition: 0.6s;
+}
+
+footer .one h3:hover{
+    transform: scale(1.04);
+}
+
+footer .one p{
+    color: rgb(155, 153, 153);
+    font-size: 1.2rem;
+}
+
+footer .one h5{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    transform: translateX(0) translateY(15rem);
+}
+
+
+footer .two{
+    width: 24rem;
+    padding: 1.8rem 2.7rem;
+}
+
+footer .two h4{
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    margin-bottom: 1.6rem;
+    transition: 0.4s;
+}
+
+footer .two h4:hover{
+    transform: scale(1.05);
+}
+
+footer .two p{
+    color: rgb(155, 153, 153);
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+
+footer .three{
+    width: 24rem;
+    padding: 1.8rem 1.5rem;
+}
+
+footer .three h4{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.6rem;
+    transition: 0.4s;
+}
+
+footer .three h4:hover{
+    transform: scale(1.05);
+}
+
+footer .three p{
+    color: rgb(155, 153, 153);
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+footer .three .p33 , .p44{
+    margin-top: -1rem;
+}
+
+
+
+footer .four{
+    width: 40.75rem;
+    padding: 1.8rem 1.5rem;
+}
+
+footer .four .get{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    transition: 0.4s;
+}
+
+footer .four .get:hover{
+    transform: scale(1.05);
+}
+
+footer .four .insub{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.3rem;
+}
+
+footer .four .insub input{
+    background-color: rgb(39, 39, 39);
+    padding: 1.2rem 1.5rem;
+    width: 29rem;
+    transform: translateX(1rem);
+    border: 2px solid rgb(87, 86, 86);
+    border-radius: 10px;
+}
+
+footer .four .insub .sub{
+    padding: 1rem 1.5rem;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+footer .four .soc{
+    display: flex;
+    margin-left: 2rem;
+    gap: 3.5rem;
+}
+
+footer .four .soc img{
+    width: 4.1rem;
+    height: 4.1rem;
+    background-color: rgb(39, 39, 39);
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0.8rem;
+    transition: 1s;
+}
+
+footer .four .soc img:hover{
+    transform: scale(1.2);
+}
+
+footer .four .pt{
+    display: inline-block;
+}
+
+footer .four .pt p{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+footer .four .pt .p1{
+    transform: translateX(13rem) translateY(10.5rem);
+}
+
+footer .four .pt .p2{
+    transform: translateX(26rem) translateY(8.9rem);
+}
+
+
+
+
+
+
+@media screen and (max-width: 575px) {
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    
+}
