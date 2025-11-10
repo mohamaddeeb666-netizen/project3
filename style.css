@@ -2660,21 +2660,6182 @@ footer .four .pt .p2{
 
 
 
+
+
+
+/*---------------------------------------------------
+----------------@media
+--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 575px) {
+
+html {
+    font-size: 7.5px;
+}
+
+header{
+    padding: 0.5rem 2.5rem;
+}
+
+header nav{
+    width: 70%;
+}
+
+header nav ul{
+    display: none;
+}
+
+header nav div {
+    width: 100%;
+    justify-content: end;
+    gap: 1rem;
+}
+
+header nav div img {
+    width: 27px;
+    height: 27px;
+}
+
+
+
+
+
+
+.travel1 {
+    padding: 8rem 2rem 3rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.travel1 .containertexts {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.travel1 .containertexts img {
+    width: 25px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 4.3rem;
+}
+
+.travel1 .containertexts .containerlocation {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: unset;
+    width: 100%;
+    padding: 0.5rem 0.8rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+}
+
+.travel1 .containertexts .containerlocation img {
+    width: 22px;
+    height: auto;
+    margin-left: 0;
+}
+
+.travel1 .containertexts .containerlocation h4{
+    font-size: 1.1rem;
+}
+
+.travel1 .containertexts .containerlocation .text p{
+    font-size: 0.9rem;
+}
+
+.travel1 .containertexts .containerlocation a {
     
+    padding: 0.3rem 0.5rem;
+
+    margin-left: 0;
+}
+
+.travel1 .containertexts .containerlocation .line{
+    display: none;
+}
+
+
+
+
+
+.travel1 .containerimages {
+    width: 100%;
+}
+
+
+.travel1 .containerimages .img1 {
+    width: 50%;
+}
+
+.travel1 .containerimages .img1 .text1 {
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3); */
+    border-radius: 1rem;
+    padding: 0.4rem 0.9rem;
+    /* margin: 120px 150px 0 0; */
+    margin: 0;
+    margin-top: 22%;
+    margin-right: 25%;
+    /* z-index: 100;
+    transition: 0.5s; */
+}
+
+.travel1 .containerimages .img1 .text1 .bold {
+    font-size: 0.9rem;
+}
+.travel1 .containerimages .img1 .text1 .p {
+    margin-left: 5%;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.travel1 .containerimages img {
+    margin: 0.5rem;
+    border-radius: 1.2rem;
+    /* transition: 1s; */
+}
+.travel1 .containerimages img:hover {
+    transform: scale(1.04);
+}
+
+.travel1 .containerimages .img1 .one {
+    /* width: 19rem;
+    height: 24rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.263;
+    /* object-fit: cover; */
+    /* display:block; */
+}
+.travel1:has(.one:hover) .text1 {
+    filter: blur(2px);
+    transform: translateX(-12vw);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img1 .three {
+    /* width: 29rem;
+    height: auto; */
+    width:100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+.travel1:has(.three:hover) .containerlocation {
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+
+
+.travel1 .containerimages .img2 {
+    margin-top: 12%;
+    width: 50%;
+}
+
+.travel1 .containerimages .img2 .text2 {
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3);
+    border-radius: 15px; */
+    border-radius: 1rem;
+    padding: 0.3rem 0.8rem;
+    margin: 0;
+    margin-inline-start: 10% ;
+    margin-top: -2%;
+    /* margin: -30px 0 0 50px; */
+    /* margin: 0; */
+    /* transition: 0.5s; */
+    /* z-index: 100; */
+}
+
+
+.travel1 .containerimages .img2 .text2 .bold {
+    font-size: 1rem;
+    /* line-height: 1rem; */
+}
+.travel1 .containerimages .img2 .text2 .p {
+    margin-left: 5%;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+}
+
+.travel1 .containerimages .img2 .two {
+    /* width: 29rem;
+    height: 23rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+.travel1:has(.two:hover) .text2 {
+    /* filter: blur(1.5px); */
+    transform: translateY(-3rem);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img2 .four {
+    /* height: 24rem;
+    width: 20rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.2;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.travel2 {
+    /* display: flex; */
+    flex-direction:column-reverse;
+    padding: 2rem;
+    justify-content: unset;
+    align-items: unset;
+}
+
+.travel2 .containerimages {
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* align-items: center; */ 
+    aspect-ratio: 1 / 0.72;
+}
+.travel2 .containerimages:hover {
+    transform: scale(1.03);
+}
+
+.travel2 .containerimages .img1 {
+    /* width: 25rem;
+    height: 40rem; */
+    width: 37%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    border-radius: 10px;
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2 .containerimages .img2 {
+    /* width: 20rem;
+    height: 30rem; */
+    width: 32%;
+    height: auto;
+    aspect-ratio: 1 / 1.5;
+    border-radius: 10px;
+    /* transform: skewY(5deg); */
+    margin: 1px;
+    /* margin-left: 15rem; */
+    margin-left: 20%;
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2:has(.containerimages:hover) .img2 {
+    /* filter: blur(4px); */
+    margin-left: 38%;
+}
+
+.travel2 .containerimages .img3 {
+    /* width: 15rem;
+    height: 20srem; */
+    width: 27%;
+    height: auto;
+    aspect-ratio: 1 / 1.333;
+    border-radius: 10px;
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* margin-left: 30rem; */
+    margin-left: 35%;
+    /* position: absolute;
+    transition: 1s; */
+}
+.travel2:has(.containerimages:hover) .img3 {
+    /* filter: blur(4px); */
+    margin-left: 70.7%;
+}
+
+
+
+.travel2 .containertexts {
+    width: 100%;
+}
+
+.travel2 .containertexts .type1 {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: unset;
+}
+
+.travel2 .containertexts .type1 .text {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0.5rem 1.5rem;
+    /* border: 2px groove rgba(180, 180, 180, 0.1); */
+    border-radius: 10px;
+    /* opacity: 90%;
+    background-color: rgba(250, 248, 248, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s; */
+}
+.travel2 .containertexts .type1 .text .t1 h4 {
+    font-size: 1rem;
+}
+.travel2 .containertexts .type1 .text .t1 p {
+    font-size: 0.7rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 0rem;
+}
+.travel2 .containertexts .type1 .text img {
+    /* position: absolute; */
+    /* rotate: 40deg;
+    background-color: rgb(230, 224, 224);
+    border-radius: 60%; */
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+    margin-right: -1rem;
+    /* transition: 0.4s; */
+}
+
+.travel2 .containertexts .type2 {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 1.5rem 0;
+}
+
+.travel2 .containertexts .type2 .book {
+    /* display: flex;
+    align-items: center; */
+    gap: 1.5rem;
+    /* text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white; */ 
+    padding: 0.3rem 1.5rem;
+    /* margin-left: 3rem; */
+    /* border-radius: 30px; */
+    /* transition: 1s; */
+}
+
+.travel2 .containertexts .type2 .learn {
+    /* text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(6, 6, 117); */
+    margin-right: 4rem;
+}
+
+.travel2 .containertexts .type2 .book h4 {
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+}
+
+
+
+
+.travel3 {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    padding: 4rem 2rem;
+}
+
+.travel3 .containertexts {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+}
+
+.travel3 .containertexts .pp {
+    /* font-size: 1.2rem; */
+    /* color: rgb(131, 143, 90); */
+    margin-top: 0.5rem;
+    /* text-align: center; */
+}
+
+.travel3 .containerimages {
+    /* width: 100%; */
+    margin: 1.5rem 0;
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    /* align-items: end; */
+    /* transition: 1s; */
+}
+
+.travel3 .containerimages .img1 {
+    /* display: flex;
+    position: relative; */
+    /* text-align: center; */
+    /* transition: 1s; */
+    justify-content: end;
+    width: 45%;
+        height: auto;
+        aspect-ratio: 1 / 1.5;
+}
+
+.travel3 .containerimages .img1 img {
+    /* width: 24rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.travel3 .containerimages .img1 .ti-arrows-corner {
+    /* color: white;
+    position: absolute; */
+    font-size: 2rem;
+    transform: unset;
+    /* transform: translateY(-31vh); */
+        /* rotate: 90deg; */
+    padding: 1rem;
+    /* margin: 1rem; */
+    /* background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s; */
+}
+
+.travel3 .containerimages .img1 h4 {
+    /* position: absolute;
+    color: white; */
+    /* transform: translateY(33rem) translateX(2rem); */
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+    transform: unset;
+    font-size: 2rem;
+    margin: 2rem;
+    /* cursor: pointer;
+    transition: 0.7s; */
+}
+
+
+
+.travel3 .containerimages .img2 {
+    /* display: flex;
+    position: relative;
+    transition: 1s; */
+    justify-content: end;
+    width: 40%;
+    height: auto;
+    aspect-ratio: 1 / 1.3;
+}
+
+.travel3 .containerimages .img2 img {
+    /* width: 24rem;
+    height: 38rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.travel3 .containerimages .img2 .ti-arrows-corner {
+    /* color: white;
+    position: absolute; */
+    font-size: 2rem;
+    /* transform: translateY(-17rem); */
+    transform: unset;
+    /* rotate: 90deg; */
+    /* padding: 1rem; */
+    /* margin: 1rem; */
+    /* background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    transition: 0.7s; */
+}
+
+.travel3 .containerimages .img2 h2 {
+    /* position: absolute;
+    color: white;
+    display: flex; */
+    /* transform: translateY(31rem) translateX(2rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 2rem;
+    font-size: 2.5rem;
+    /* transition: 0.7s; */
+}
+.travel3 .containerimages .img2 .ti-control-record {
+    font-size: 1.5rem;
+    transform: translateY(0.5rem);
+}
+.travel3 .containerimages .img2 .sunny {
+    font-size: 1.5rem;
+}
+
+
+
+.travel3 .containerimages .img3 {
+    /* position: relative;
+    display: flex; */
+    width: 35%;
+    height: auto;
+    aspect-ratio: 1 / 1.4;
+}
+
+.travel3 .containerimages .img3 img {
+    /* width: 24rem;
+    height: 35rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.travel3 .containerimages .img3 .i1 {
+    /* position: absolute; */
+    transform: translateX(1rem) translateY(1.5rem);
+    width: 2.5rem;
+    height: 2.7rem;
+}
+.travel3 .containerimages .img3 .i2 {
+    /* position: absolute; */
+    transform: translateX(3rem) translateY(1.5rem);
+    width: 2.5rem;
+    height: 2.7rem;
+}
+.travel3 .containerimages .img3 .i3 {
+    /* position: absolute; */
+    transform: translateX(5rem) translateY(1.5rem);
+    width: 2.5rem;
+    height: 2.7rem;
+}
+.travel3 .containerimages .img3 .i4 {
+    /* position: absolute; */
+    transform: translateX(7rem) translateY(1.5rem);
+    width: 2.5rem;
+    height: 2.7rem;
+}
+.travel3 .containerimages .img3 .i5 {
+    /* position: absolute; */
+    /* transform: translateY(21rem) translateX(3rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 9rem 1rem;
+}
+.travel3 .containerimages .img3 .i6 {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    /* transform: translateY(28rem) translateX(3rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 1rem;
+    /* position: absolute; */
+}
+
+
+.travel3 .containerimages .img4 {
+    /* display: flex;
+    position: relative;
+    transition: 1s; */
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-top: 1rem;
+}
+
+.travel3 .containerimages .img4 img {
+    /* width: 46rem;
+    height: 42rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.travel3 .containerimages .img4 .span {
+    /* position: absolute;
+    display: flex; */
+    transform: translateX(2rem) translateY(1.5rem);
+    gap: 0.5rem;
+
+    width: 100%;
+}
+.travel3 .containerimages .img4 .span span {
+    /* width: 8rem;
+    height: 0.5rem; */
+    /* background-color: gray; */
+    /* border-radius: 5px; */
+    width: 15%;
+    height: auto;
+    aspect-ratio: 1 / 0.1;
+}
+
+.travel3 .containerimages .img4 p {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1rem;
+    /* color: white; */
+    /* transform: translateX(3rem) translateY(34rem); */
+    /* transition: 1s; */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 1rem;
+}
+
+.travel3 .containerimages .img4 .d1 {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1rem;
+    /* color: white;
+    opacity: 80%; */
+    padding: 0.5rem 1rem;
+    background-color: gray;
+    /* border-radius: 50%;
+    border: 2px solid gray; */
+    /* transform: translateX(35rem) translateY(35rem); */
+
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+    margin-right: 5rem;
+
+    /* transition: 1s; */
+}
+
+.travel3 .containerimages .img4 .d2 {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1rem;
+    /* color: gray;
+    opacity: 80%; */
+    padding: 0.5rem 1rem;
+    /* background-color: white;
+    border-radius: 50%;
+    border: 2px solid white; */
+    /* transform: translateX(40rem) translateY(35rem); */
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+    /* transition: 1s; */
+}
+
+
+
+
+
+
+
+
+.travel4 {
+    /* display: flex; */
+    padding: 4rem 2rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.8;
+    justify-content: space-between;
+}
+
+.travel4 .one {
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+    perspective: 1000px; */
+}
+
+.travel4 .two {
+    display: none;
+    /* width: 47%;
+    height: 100%;
+    position: relative;
+    perspective: 1000px; */
+}
+
+.travel4 .one .oneone {
+     position: relative;
+    /*display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    transform-style: preserve-3d; */
+}
+.travel4 .one .oneone .containerimages {
+    transition: 1s;
+    /*width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; */
+}
+.travel4 .one .oneone .containerimages img {
+    /* width: 56.5rem;
+    height: 40rem; */
+    border-radius: 15px;
+    /* object-fit: cover;
+    transition: 1s; */
+    width: 100%;
+    height: 100%;
+}
+
+.travel4 .one .oneone .containertexts {
+    /* width: 100%;
+    height: 100%;
+    position: absolute; */
+    border-radius: 15px;
+    /* background-color: rgb(240, 240, 240); */
+    padding: 2.5rem 1.8rem 1.8rem 1.8rem;
+    /* backface-visibility: hidden;
+    transform: rotateY(180deg); */
+} 
+.travel4 .hh1 {
+    font-size: 3rem;
+    margin-bottom: -0.6rem;
+}
+.travel4 .hh2 {
+    font-size: 2rem;
+}
+.travel4 .one .oneone .containertexts .pp {
+    font-size: 1rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.travel4 .one .oneone .containertexts .book {
+    /* display: flex;
+    align-items: center; */
+    gap: 2rem;
+    width: 16rem;
+    /* text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white; */
+    padding: 0.8rem 2rem;
+    margin-left: 3rem;
+    /* border-radius: 30px;
+    transition: 1s; */
+}
+
+
+
+
+
+
+.travel5 {
+    /* display: flex; */
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: unset; */
+}
+
+.travel5 .one {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+
+}
+.travel5 .one h4 {
+    font-size: 2rem;
+    width: 100%;
+    height: 35%;
+    /* position: relative;
+    transition: 1s; */
+    margin-bottom: 0rem;
+}
+.travel5 .one .m1 {
+    /* position: relative; */
+    /* width: 30rem;
+    height: 26rem; */
+    width: 100%;
+    height: 65%;
+    /* aspect-ratio: 1 / 1; */
+    bottom: 0;
+    border-radius: 15px;
+    /* transition: 1s; */
+}
+.travel5 .one h5 {
+    /* transform: translateX(2rem) translateY(20rem); */
+    transform: unset;
+    font-size: 1rem;
+    margin-top: 60%;
+    margin-left: 5%;
+    /* color: white;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .one h5 img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.travel5 .one .d1 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 0.5rem;
+    /* opacity: 90%; */
+    /* transform: translateX(24rem) translateY(39rem); */
+    transform: unset;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 143%;
+    margin-left: 82%;
+    /* cursor: pointer;
+    border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+.travel5 .two {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+}
+.travel5 .two .m2 {
+    /* position: relative; */
+    /* width: 35rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    /* transition: 1s; */
+}
+.travel5 .two h5 {
+    /* transform: translateX(2rem) translateY(1rem); */
+    transform: unset;
+    font-size: 1rem;
+    /* color: white; */
+    gap: 0.5rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    /* display: flex;
+    cursor: pointer; */
+    align-items: center;
+    /* position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .two h5 img {
+    width: 3.2rem;
+    height: 2.5rem;
+}
+.travel5 .two .d2 {
+    /* position: absolute;
+    background-color: gray; */
+    /* border-radius: 50%; */
+    padding: 0.5rem;
+    margin-top: 143%;
+    margin-left: 83%;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(29.5rem) translateY(39.5rem); */
+    transform: unset;
+    width: 2.5rem;
+    height: 2.5rem;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+.travel5 .three {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    margin-top: 1rem;
+}
+
+.travel5 .three .m3 {
+    /* position: relative; */
+    /* width: 30rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    /* transition: 1s; */
+    
+}
+
+.travel5 .three h5 {
+    /* transform: translateX(2rem) translateY(1rem); */
+    transform: unset;
+    font-size: 1rem;
+    margin-top: 4%;
+    margin-left: 4%;
+
+    /* color: white;
+    cursor: pointer;
+    gap: 0.5rem; */
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .three h5 img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.travel5 .three .d3 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 0.5rem;
+    margin-top: 143%;
+    margin-left: 83%;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(24.5rem) translateY(39.5rem); */
+    transform: unset;
+    width: 2.5rem;
+    height: 2.5rem;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+
+.travel5 .four {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    margin-top: 1rem;
+}
+
+.travel5 .four .m4 {
+    /* position: relative; */
+    /* width: 20rem;
+    height: 20rem; */
+    width: 100%;
+    height: 66.7%;
+    border-radius: 15px;
+    /* transition: 1s; */
+}
+.travel5 .four h5 {
+    /* transform: translateX(1.2rem) translateY(0.9rem); */
+    transform: unset;
+    font-size: 1rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    /* color: white;
+    gap: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .four h5 img {
+    width: 3.4rem;
+    height: 2.5rem;
+}
+.travel5 .four .d4 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 0.5rem;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(15.3rem) translateY(15.3rem); */
+    transform: unset;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 90%;
+    margin-left: 83%;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+.travel5 .four p {
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    /* color: rgb(131, 143, 90); */
+    /* width: 20rem; */
+    width: 100%;
+    height: 25%;
+
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.travel6 {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.travel6 .containertexts {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;*/
+    margin-bottom: 1rem; 
+}
+.travel6 .containerimages .hh1 {
+    font-size: 1.3rem;
+}
+.travel6 .containerimages .hh2 , .travel6 .containerimages .hh3{
+    font-size: 1.2rem;
+}
+
+.travel6 .containertexts .pp {
+    /* font-size: 1.2rem; */
+    /* color: rgb(131, 143, 90); */
+    margin-top: 1rem;
+    /* text-align: center; */
+}
+
+.travel6 .containerimages {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.travel6 .containerimages .one {
+    /* transition: 1s; */
+    order: 2;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.travel6 .containerimages .one .ho1 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    border-radius: 15px;
+}
+
+
+
+.travel6 .containerimages .two {
+    /* transition: 1s; */
+    width: 100%;
+    border-radius: 15px;
+    order: 1;
+    /* align-items: center; */
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.travel6 .containerimages .two .ho2 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 98%;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+
+.travel6 .containerimages .hh1 {
+    font-size: 1.3rem;
+    margin-left: 0rem;
+    margin-top: -0.5rem;
+}
+.travel6 .containerimages .hh2 {
+    /* display: inline;
+    color: red;
+    font-size: 1.5rem;
+    text-decoration: line-through; */
+    /* margin-right: 1rem; */
+    margin-left: 0rem;
+}
+.travel6 .containerimages p {
+    /* font-size: 1.2rem;
+    color: rgb(131, 143, 90);*/
+    margin-left: 0rem; 
+    /* text-align: center; */
+    display: block;
+    /* align-items: center; */
+}
+.travel6 .containerimages p img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -0.3rem;
+}
+
+.travel6 .containerimages .three {
+    /* transition: 1s; */
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    order: 3;
+    /* border: 2px solid white; */
+}
+
+.travel6 .containerimages .three .ho3 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.travel7 {
+    /* display: flex;
+    flex-direction: column; */
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 4rem 2rem;
+}
+
+.travel7 .containertexts {
+    /* width: 50%; */
+    width: 100%;
+    height: auto;
+    display: inline;
+    /* position: relative; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+.travel7 .containertexts .q {
+    font-size: 3.5rem;
+}
+.travel7 .containertexts .more {
+    /* display: inline-block; */
+    /* transform: translateX(71rem); */
+    transform: unset;
+    margin-left: 1.5rem;
+    /* text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px; */
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    /* transition: 0.6s; */
+}
+
+.travel7 .containerimages {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.travel7 .containerimages .one {
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    text-align: center;
+    /* transition: 1s; */
+}
+.travel7 .containerimages .one .m1 {
+    /* position: relative; */
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.593;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+
+.travel7 .containerimages .one .hh1 {
+    /* position: absolute; */
+    font-size: 2rem;
+    /* transform: translateX(2.3rem) translateY(2rem); */
+    /* color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .one .p1 {
+    /* position: absolute; */
+    font-size: 1.2rem;
+    /* color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(7rem); */
+}
+.travel7 .containerimages .one .p2 {
+    /* position: absolute; */
+    font-size: 1.2rem;
+    /* color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(9rem); */
+}
+
+
+.travel7 .containerimages .two {
+    /* position: relative;
+    transition: 1s;
+    display: flex; */
+    width: 100%;
+}
+
+.travel7 .containerimages .two .m2 {
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.593;
+    /* margin: 0.5rem; */
+    border-radius: 15px;
+}
+
+.travel7 .containerimages .two .hh21 {
+    /* position: absolute; */
+    font-size: 2rem;
+    /* transform: translateX(2.3rem) translateY(2rem);
+    color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .two .hh22 {
+    /* position: absolute; */
+    font-size: 2rem;
+     transform: translateX(2.3rem) translateY(5rem);
+    /*color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .two .p21 {
+    /* position: absolute; */
+    font-size: 1.2rem;
+    /* color: white;
+    transition: 1s;*/
+    transform: translateX(2.3rem) translateY(10rem); 
+}
+.travel7 .containerimages .two .p22 {
+    /* position: absolute; */
+    font-size: 1.2rem;
+    /* color: white;
+    transition: 1s;*/
+    transform: translateX(2.3rem) translateY(12rem); 
+}
+
+
+
+
+
+
+
+
+.travel8 {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 4rem 2rem;
+}
+
+.travel8 .containertexts {
+    width: 100%;
+    display: inline-block;
+   /* position: relative;
+    flex-direction: column; */
+    /* margin-bottom: 2rem; */
+}
+
+.travel8 .containertexts .q {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.travel8 .containertexts .more {
+    display: inline-block;
+    /* transform: translateX(33rem); */
+    transform: unset;
+    right: 0;
+    /* text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem; */
+    /* transition: 0.6s; */
+}
+
+
+
+.travel8 .containerimages {
+    /* display: flex; */
+    width: 100%;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.travel8 .containerimages .one {
+    width: 50%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    /* transition: 1s; */
+    border-radius: 15px;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.travel8 .containerimages p {
+     font-size: 1rem;
+    /*color: rgb(131, 143, 90); */
+    margin-left: 0rem;
+    /* text-align: center; */
+    display: block;
+    /* align-items: center; */
+}
+.travel8 .containerimages .bdt1 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+.travel8 .containerimages .hh1 {
+    font-size: 1.3rem;
+    margin-left: 0rem;
+}
+.travel8 .containerimages p img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -0.3rem;
+}
+.travel8 .containerimages .one .m1 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 15px;
+}
+.travel8 .containerimages .one .hr1 {
+    width: 3.25rem;
+    height: 3rem;
+    /* position: absolute;
+    background-color: rgb(95, 95, 95); */
+    padding: 0.7rem;
+    /* border-radius: 6px; */
+    /* opacity: 70%; */
+    /* transform: translateX(30rem) translateY(2rem); */
+    transform: unset;
+     margin: 1rem;
+     margin-top: 2rem;
+    right: 0;
+}
+
+
+
+.travel8 .containerimages .two {
+    width: 50%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    transition: 1s; */
+    border-radius: 15px;
+    text-align: center
+    /* border: 2px solid white; */
+}
+
+.travel8 .containerimages .two .m2 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 15px;
+}
+
+.travel8 .containerimages .two .hr2 {
+    /* width: 3.25rem;
+    height: 3rem; */
+    /* position: absolute;
+    background-color: rgb(95, 95, 95);
+    padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%;
+    transform: translateX(30rem) translateY(2rem); */
+    transform: unset;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 4%;
+}
+.travel8 .containerimages .hh2 {
+    font-size: 1.3rem;
+    margin-left: 0rem;
+}
+.travel8 .containerimages .bdt2 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+.travel8 .containerimages .three {
+    /* display: flex;
+    flex-direction: column;
+    transition: 1s; */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    /* border: 2px solid white; */
+}
+
+.travel8 .containerimages .three .m3 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 98%;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 15px;
+}
+
+.travel8 .containerimages .three .hr3 {
+    /* width: 3.25rem;
+    height: 3rem;
+    position: absolute;
+    background-color: rgb(95, 95, 95); */
+    /* padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%; */
+    /* transform: translateX(46rem) translateY(2rem); */
+    transform: unset;
+    right: 0;
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+.travel8 .containerimages .hh3 {
+    font-size: 1.3rem;
+    margin-left:0rem;
+}
+.travel8 .containerimages .bdt3 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+.travel9 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4rem 0.25rem 0rem 0.25rem;
+}
+
+.travel9 .two {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .two img {
+    /* margin: 0.25rem;
+    border-radius: 15px; */
+    /* width: 88.75rem;
+    height: 42.5rem; */
+    width: 99%;
+    height: auto;
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .two .h31 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin-top: 20%;
+    margin-left: 15%;
+    /* transform: translateX(20rem) translateY(20rem); */
+    transform: unset;
+    /* transition: 1s; */
+}
+.travel9 .two .h32 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin-top: 25%;
+    margin-left: 15%;
+    /* transform: translateX(28rem) translateY(25rem); */
+    transform: unset;
+    /* transition: 1s; */
+}
+
+
+.travel9 .one {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+
+.travel9 .one .one1 {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .one .one1 img {
+    /* margin: 0.25rem; */
+    /* border-radius: 15px; */
+    /* width: 44rem;
+    height: 24rem; */
+    width: 99%;
+    height: auto;
+    /* aspect-ratio: 1 / 0.545; */
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .ti-world {
+    /* position: absolute;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 5px; */
+    /* padding: 0.6rem;
+    font-size: 1.7rem; */
+    transform: translateX(1.5rem) translateY(1.5rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .h41 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 1.4rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(5rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .h42 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 1.4rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(8rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .p11 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    transform: translateX(2rem) translateY(11rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .book {
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    text-decoration: none; */
+    padding: 0.5rem 1.2rem;
+    /* opacity: 60%;
+    background-color: white; */
+    border-radius: 25px;
+    /* border: 2px solid rgb(2, 2, 71); */
+    transform: translateX(2rem) translateY(13rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .book .h4b {
+    /* display: flex; */
+    font-size: 1.3rem;
+    /* color: rgb(2, 2, 71);
+    transition: 1s; */
+}
+
+
+
+.travel9 .one .one2 {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .one .one2 img {
+    /* margin: 0.25rem; */
+    /* border-radius: 15px; */
+    /* width: 44rem;
+    height: 18rem; */
+    width: 99%;
+    height: auto;
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .one .one2 .pp {
+    /* position: absolute;
+    color: white; */
+    font-size: 0.9rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(7rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one2 .h33 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 2.3rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(10rem);
+    /* transition: 1s; */
+}
+
+footer .one h5 {
+    /* color: white; */
+    font-size: 0.3rem;
+    /* letter-spacing: 0.2rem; */
+    /* transform: translateX(0) translateY(15rem); */
+    transform: unset;
+    margin-top: 35%
+}
+
+
+
+
+
+
+
+footer {
+    /* display: flex;
+    justify-content: space-between; */
+    /* height: 30rem; */
+    width: 98%;
+    height: auto;
+    /* aspect-ratio: 1 / 0.478; */
+    /* margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+    background-color: black;
+    border-radius: 15px; */
+}
+
+footer .one {
+    /* width: 44rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .one h3 {
+    /* color: white;
+    display: inline-block; */
+    /* letter-spacing: 0.2rem; */
+    /* cursor: pointer; */
+    /* margin-bottom: 0.5rem; */
+    /* transition: 0.6s; */
+    font-size: 1rem;
+}
+footer .one p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+
+footer .two {
+    /* width: 24rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .two h4 {
+    /* color: white;
+    display: inline-block; */
+    font-size: 1rem;
+    /* letter-spacing: 0.2rem;
+    cursor: pointer; */
+    margin-bottom: 0.5rem;
+    /* transition: 0.4s; */
+}
+footer .two p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+
+
+footer .three {
+    /* width: 24rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .three h4 {
+    /* display: inline-block;
+    color: white; */
+    font-size: 1rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    margin-bottom: 0.5rem;
+    /* transition: 0.4s; */
+}
+footer .three p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+footer .four {
+    /* width: 40.75rem; */
+    width: 40%;
+    padding: 1.3rem 1.5rem;
+}
+footer .four .get {
+    /* display: inline-block;
+    color: white; */
+    font-size: 1rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    margin-bottom: 0.5rem;
+    margin-left: 0rem;
+    /* transition: 0.4s; */
+}
+footer .four .insub {
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 0.5rem;
+}
+footer .four .insub input {
+    /* background-color: rgb(39, 39, 39); */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    /* width: 29rem; */
+    width: 50%;
+    transform: translateX(0rem);
+    /* border: 2px solid rgb(87, 86, 86); */
+    border-radius: 4px;
+}
+footer .four .insub .sub {
+    padding: 0.5rem 1rem;
+    /* background-color: white; */
+    transform: translateX(-0.7rem);
+    font-size: 1rem;
+    /* cursor: pointer; */
+    border-radius: 4px;
+    z-index: 100;
+}
+footer .four .soc {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    gap: unset;
+    width: 80%;
+}
+footer .four .soc img {
+    width: 2.8rem;
+    height: 2.8rem;
+    /* background-color: rgb(39, 39, 39); */
+    /* border-radius: 50%; */
+    /* cursor: pointer; */
+    padding: 0.4rem;
+    /* transition: 1s; */
+}
+footer .four .pt {
+    display: flex;
+    object-fit: cover;
+    margin-top: 55%;
+    /* position: relative; */
+}
+
+footer .four .pt .p1 {
+    /* transform: translateX(13rem) translateY(10.5rem); */
+    transform: unset;
+    /* transform: translateY(15h); */
+    font-size: 0.7rem;
+    bottom: 0;
+    /* margin-top: 100%; */
+}
+footer .four .pt .p2 {
+    /* transform: translateX(26rem) translateY(8.9rem); */
+    transform: unset;
+    font-size: 0.7rem;
+}
+
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
     
+html {
+    font-size: 8.5px;
+}
+
+header{
+    padding: 0.5rem 2.5rem;
+}
+
+header nav{
+    width: 70%;
+}
+
+header nav ul{
+    display: none;
+}
+
+header nav div {
+    width: 100%;
+    justify-content: end;
+    gap: 1rem;
+}
+
+header nav div img {
+    width: 27px;
+    height: 27px;
+}
+
+
+
+
+
+
+.travel1 {
+    padding: 8rem 2rem 3rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.travel1 .containertexts {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.travel1 .containertexts img {
+    width: 25px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 4.3rem;
+}
+
+.travel1 .containertexts .containerlocation {
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: unset;
+    width: 75%;
+    padding: 0.3rem 0.8rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+}
+
+.travel1 .containertexts .containerlocation img {
+    width: 30px;
+    height: auto;
+    margin-left: 0;
+}
+
+.travel1 .containertexts .containerlocation h4{
+    font-size: 1.3rem;
+}
+
+.travel1 .containertexts .containerlocation .text p{
+    font-size: 1rem;
+}
+
+.travel1 .containertexts .containerlocation a {
+    
+    padding: 0.3rem 0.8rem;
+    margin-left: 0;
+}
+
+.travel1 .containertexts .containerlocation .line{
+    /* display: none; */
+    /* background-color: rgb(164, 165, 165); */
+    height: 3rem;
+    width: 3px;
+}
+
+
+
+
+
+.travel1 .containerimages {
+    width: 100%;
+}
+
+
+.travel1 .containerimages .img1 {
+    width: 50%;
+}
+
+.travel1 .containerimages .img1 .text1 {
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3); */
+    border-radius: 1rem;
+    padding: 0.4rem 0.9rem;
+    /* margin: 120px 150px 0 0; */
+    margin: 0;
+    margin-top: 22%;
+    margin-right: 25%;
+    /* z-index: 100;
+    transition: 0.5s; */
+}
+
+.travel1 .containerimages .img1 .text1 .bold {
+    font-size: 1.1rem;
+}
+.travel1 .containerimages .img1 .text1 .p {
+    margin-left: 5%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.travel1 .containerimages img {
+    margin: 0.5rem;
+    border-radius: 1.3rem;
+    /* transition: 1s; */
+}
+.travel1 .containerimages img:hover {
+    transform: scale(1.04);
+}
+
+.travel1 .containerimages .img1 .one {
+    /* width: 19rem;
+    height: 24rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.263;
+    /* object-fit: cover; */
+    /* display:block; */
+}
+.travel1:has(.one:hover) .text1 {
+    filter: blur(2px);
+    transform: translateX(-12vw);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img1 .three {
+    /* width: 29rem;
+    height: auto; */
+    width:100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+.travel1:has(.three:hover) .containerlocation {
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+
+
+.travel1 .containerimages .img2 {
+    margin-top: 12%;
+    width: 50%;
+}
+
+.travel1 .containerimages .img2 .text2 {
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3);
+    border-radius: 15px; */
+    border-radius: 1rem;
+    padding: 0.3rem 0.8rem;
+    margin: 0;
+    margin-inline-start: 10% ;
+    margin-top: -2%;
+    /* margin: -30px 0 0 50px; */
+    /* margin: 0; */
+    /* transition: 0.5s; */
+    /* z-index: 100; */
+}
+
+
+.travel1 .containerimages .img2 .text2 .bold {
+    font-size: 1.1rem;
+    /* line-height: 1rem; */
+}
+.travel1 .containerimages .img2 .text2 .p {
+    margin-left: 5%;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.travel1 .containerimages .img2 .two {
+    /* width: 29rem;
+    height: 23rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+.travel1:has(.two:hover) .text2 {
+    /* filter: blur(1.5px); */
+    transform: translateY(-3rem);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img2 .four {
+    /* height: 24rem;
+    width: 20rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.2;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.travel2 {
+    /* display: flex; */
+    flex-direction:column-reverse;
+    padding: 4rem 2rem;
+    justify-content: unset;
+    align-items: unset;
+}
+
+.travel2 .containerimages {
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* align-items: center; */ 
+    aspect-ratio: 1 / 0.72;
+}
+.travel2 .containerimages:hover {
+    transform: scale(1.03);
+}
+
+.travel2 .containerimages .img1 {
+    /* width: 25rem;
+    height: 40rem; */
+    width: 37%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    border-radius: 10px;
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2 .containerimages .img2 {
+    /* width: 20rem;
+    height: 30rem; */
+    width: 32%;
+    height: auto;
+    aspect-ratio: 1 / 1.5;
+    border-radius: 10px;
+    /* transform: skewY(5deg); */
+    margin: 1px;
+    /* margin-left: 15rem; */
+    margin-left: 20%;
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2:has(.containerimages:hover) .img2 {
+    /* filter: blur(4px); */
+    margin-left: 38%;
+}
+
+.travel2 .containerimages .img3 {
+    /* width: 15rem;
+    height: 20srem; */
+    width: 27%;
+    height: auto;
+    aspect-ratio: 1 / 1.333;
+    border-radius: 10px;
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* margin-left: 30rem; */
+    margin-left: 35%;
+    /* position: absolute;
+    transition: 1s; */
+}
+.travel2:has(.containerimages:hover) .img3 {
+    /* filter: blur(4px); */
+    margin-left: 70.7%;
+}
+
+
+
+.travel2 .containertexts {
+    width: 75%;
+}
+
+.travel2 .containertexts .type1 {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: unset;
+}
+
+.travel2 .containertexts .type1 .text {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0.5rem 1.5rem;
+    /* border: 2px groove rgba(180, 180, 180, 0.1); */
+    border-radius: 10px;
+    /* opacity: 90%;
+    background-color: rgba(250, 248, 248, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s; */
+}
+.travel2 .containertexts .type1 .text .t1 h4 {
+    font-size: 1.2rem;
+}
+.travel2 .containertexts .type1 .text .t1 p {
+    font-size: 0.9rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 0rem;
+}
+.travel2 .containertexts .type1 .text img {
+    /* position: absolute; */
+    /* rotate: 40deg;
+    background-color: rgb(230, 224, 224);
+    border-radius: 60%; */
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+    margin-right: -1rem;
+    /* transition: 0.4s; */
+}
+
+.travel2 .containertexts .type2 {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 1.5rem 0;
+}
+
+.travel2 .containertexts .type2 .book {
+    /* display: flex;
+    align-items: center; */
+    gap: 1.5rem;
+    /* text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white; */ 
+    padding: 0.3rem 1.5rem;
+    /* margin-left: 3rem; */
+    /* border-radius: 30px; */
+    /* transition: 1s; */
+}
+
+.travel2 .containertexts .type2 .learn {
+    /* text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(6, 6, 117); */
+    margin-right: 5rem;
+}
+
+.travel2 .containertexts .type2 .book h4 {
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+.travel3 {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    padding: 4rem 2rem;
+}
+
+.travel3 .containertexts {
+    width: 75%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+}
+
+.travel3 .containertexts .pp {
+    /* font-size: 1.2rem; */
+    /* color: rgb(131, 143, 90); */
+    margin-top: 0.5rem;
+    /* text-align: center; */
+}
+
+.travel3 .containerimages {
+    /* width: 100%; */
+    margin: 1.5rem 0;
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    /* align-items: end; */
+    /* transition: 1s; */
+}
+
+.travel3 .containerimages .img1 {
+    /* display: flex;
+    position: relative; */
+    /* text-align: center; */
+    /* transition: 1s; */
+    justify-content: end;
+    width: 45%;
+        height: auto;
+        aspect-ratio: 1 / 1.5;
+}
+
+.travel3 .containerimages .img1 img {
+    /* width: 24rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img1 .ti-arrows-corner {
+    /* color: white;
+    position: absolute; */
+    font-size: 2.5rem;
+    transform: unset;
+    /* transform: translateY(-31vh); */
+        /* rotate: 90deg; */
+    padding: 1.2rem;
+    /* margin: 1rem; */
+    /* background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s; */
+}
+
+.travel3 .containerimages .img1 h4 {
+    /* position: absolute;
+    color: white; */
+    /* transform: translateY(33rem) translateX(2rem); */
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+    transform: unset;
+    font-size: 2.5rem;
+    margin: 2rem;
+    /* cursor: pointer;
+    transition: 0.7s; */
+}
+
+
+
+.travel3 .containerimages .img2 {
+    /* display: flex;
+    position: relative;
+    transition: 1s; */
+    justify-content: end;
+    width: 40%;
+    height: auto;
+    aspect-ratio: 1 / 1.3;
+}
+
+.travel3 .containerimages .img2 img {
+    /* width: 24rem;
+    height: 38rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img2 .ti-arrows-corner {
+    /* color: white;
+    position: absolute; */
+    font-size: 2.5rem;
+    /* transform: translateY(-17rem); */
+    transform: unset;
+    /* rotate: 90deg; */
+    /* padding: 1rem; */
+    /* margin: 1rem; */
+    /* background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    transition: 0.7s; */
+}
+
+.travel3 .containerimages .img2 h2 {
+    /* position: absolute;
+    color: white;
+    display: flex; */
+    /* transform: translateY(31rem) translateX(2rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 2rem;
+    font-size: 3rem;
+    /* transition: 0.7s; */
+}
+.travel3 .containerimages .img2 .ti-control-record {
+    font-size: 2rem;
+    transform: translateY(0.5rem);
+}
+.travel3 .containerimages .img2 .sunny {
+    font-size: 2rem;
+}
+
+
+
+.travel3 .containerimages .img3 {
+    /* position: relative;
+    display: flex; */
+    width: 35%;
+    height: auto;
+    aspect-ratio: 1 / 1.4;
+}
+
+.travel3 .containerimages .img3 img {
+    /* width: 24rem;
+    height: 35rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img3 .i1 {
+    /* position: absolute; */
+    transform: translateX(1rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i2 {
+    /* position: absolute; */
+    transform: translateX(3rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i3 {
+    /* position: absolute; */
+    transform: translateX(5rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i4 {
+    /* position: absolute; */
+    transform: translateX(7rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i5 {
+    /* position: absolute; */
+    /* transform: translateY(21rem) translateX(3rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 9rem 1rem;
+}
+.travel3 .containerimages .img3 .i6 {
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    /* transform: translateY(28rem) translateX(3rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 1rem;
+    /* position: absolute; */
+}
+
+
+.travel3 .containerimages .img4 {
+    /* display: flex;
+    position: relative;
+    transition: 1s; */
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-top: 1rem;
+}
+
+.travel3 .containerimages .img4 img {
+    /* width: 46rem;
+    height: 42rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img4 .span {
+    /* position: absolute;
+    display: flex; */
+    transform: translateX(2rem) translateY(1.5rem);
+    gap: 0.6rem;
+
+    width: 100%;
+}
+.travel3 .containerimages .img4 .span span {
+    /* width: 8rem;
+    height: 0.5rem; */
+    /* background-color: gray; */
+    /* border-radius: 5px; */
+    width: 16.5%;
+    height: auto;
+    aspect-ratio: 1 / 0.1;
+}
+
+.travel3 .containerimages .img4 p {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1.3rem;
+    /* color: white; */
+    /* transform: translateX(3rem) translateY(34rem); */
+    /* transition: 1s; */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 2rem;
+}
+
+.travel3 .containerimages .img4 .d1 {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1.5rem;
+    /* color: white;
+    opacity: 80%; */
+    padding: 0.5rem 1rem;
+    background-color: gray;
+    /* border-radius: 50%;
+    border: 2px solid gray; */
+    /* transform: translateX(35rem) translateY(35rem); */
+
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    margin: 2rem;
+    margin-right: 6rem;
+
+    /* transition: 1s; */
+}
+
+.travel3 .containerimages .img4 .d2 {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1.5rem;
+    /* color: gray;
+    opacity: 80%; */
+    padding: 0.5rem 1rem;
+    /* background-color: white;
+    border-radius: 50%;
+    border: 2px solid white; */
+    /* transform: translateX(40rem) translateY(35rem); */
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    margin: 2rem;
+    /* transition: 1s; */
+}
+
+
+
+
+
+
+
+
+.travel4 {
+    /* display: flex; */
+    padding: 4rem 2rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.8;
+    justify-content: space-between;
+}
+
+.travel4 .one {
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+    perspective: 1000px; */
+}
+
+.travel4 .two {
+    display: none;
+    /* width: 47%;
+    height: 100%;
+    position: relative;
+    perspective: 1000px; */
+}
+
+.travel4 .one .oneone {
+     position: relative;
+    /*display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    transform-style: preserve-3d; */
+}
+.travel4 .one .oneone .containerimages {
+    transition: 1s;
+    /*width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; */
+}
+.travel4 .one .oneone .containerimages img {
+    /* width: 56.5rem;
+    height: 40rem; */
+    border-radius: 15px;
+    /* object-fit: cover;
+    transition: 1s; */
+    width: 100%;
+    height: 100%;
+}
+
+.travel4 .one .oneone .containertexts {
+    /* width: 100%;
+    height: 100%;
+    position: absolute; */
+    border-radius: 15px;
+    /* background-color: rgb(240, 240, 240); */
+    padding: 2.5rem 1.8rem 1.8rem 1.8rem;
+    /* backface-visibility: hidden;
+    transform: rotateY(180deg); */
+} 
+.travel4 .hh1 {
+    font-size: 4rem;
+    margin-bottom: 0rem;
+}
+.travel4 .hh2 {
+    font-size: 3rem;
+}
+.travel4 .one .oneone .containertexts .pp {
+    font-size: 1.3rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.travel4 .one .oneone .containertexts .book {
+    /* display: flex;
+    align-items: center; */
+    gap: 2rem;
+    width: 16rem;
+    /* text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white; */
+    padding: 0.8rem 2rem;
+    margin-left: 3rem;
+    /* border-radius: 30px;
+    transition: 1s; */
+}
+
+
+
+
+
+
+.travel5 {
+    /* display: flex; */
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: unset; */
+}
+
+.travel5 .one {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+
+}
+.travel5 .one h4 {
+    font-size: 3rem;
+    width: 100%;
+    height: 35%;
+    /* position: relative;
+    transition: 1s; */
+    margin-bottom: 0rem;
+}
+.travel5 .one .m1 {
+    /* position: relative; */
+    /* width: 30rem;
+    height: 26rem; */
+    width: 100%;
+    height: 65%;
+    /* aspect-ratio: 1 / 1; */
+    bottom: 0;
+    border-radius: 15px;
+    /* transition: 1s; */
+}
+.travel5 .one h5 {
+    /* transform: translateX(2rem) translateY(20rem); */
+    transform: unset;
+    font-size: 1.5rem;
+    margin-top: 60%;
+    margin-left: 5%;
+    /* color: white;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .one h5 img {
+    width: 3rem;
+    height: 3rem;
+}
+.travel5 .one .d1 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 0.5rem;
+    /* opacity: 90%; */
+    /* transform: translateX(24rem) translateY(39rem); */
+    transform: unset;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 145%;
+    margin-left: 86%;
+    /* cursor: pointer;
+    border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+.travel5 .two {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+}
+.travel5 .two .m2 {
+    /* position: relative; */
+    /* width: 35rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    /* transition: 1s; */
+}
+.travel5 .two h5 {
+    /* transform: translateX(2rem) translateY(1rem); */
+    transform: unset;
+    font-size: 1.5rem;
+    /* color: white; */
+    gap: 0.5rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    /* display: flex;
+    cursor: pointer; */
+    align-items: center;
+    /* position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .two h5 img {
+    width: 3.9rem;
+    height: 3rem;
+}
+.travel5 .two .d2 {
+    /* position: absolute;
+    background-color: gray; */
+    /* border-radius: 50%; */
+    padding: 0.5rem;
+    margin-top: 145%;
+    margin-left: 86%;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(29.5rem) translateY(39.5rem); */
+    transform: unset;
+    width: 3rem;
+    height: 3rem;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+.travel5 .three {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    margin-top: 1rem;
+}
+
+.travel5 .three .m3 {
+    /* position: relative; */
+    /* width: 30rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    /* transition: 1s; */
+    
+}
+
+.travel5 .three h5 {
+    /* transform: translateX(2rem) translateY(1rem); */
+    transform: unset;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    margin-left: 4%;
+
+    /* color: white;
+    cursor: pointer;
+    gap: 0.5rem; */
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .three h5 img {
+    width: 3rem;
+    height: 3rem;
+}
+.travel5 .three .d3 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 0.5rem;
+    margin-top: 145%;
+    margin-left: 86%;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(24.5rem) translateY(39.5rem); */
+    transform: unset;
+    width: 3rem;
+    height: 3rem;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+
+.travel5 .four {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    margin-top: 1rem;
+}
+
+.travel5 .four .m4 {
+    /* position: relative; */
+    /* width: 20rem;
+    height: 20rem; */
+    width: 100%;
+    height: 66.7%;
+    border-radius: 15px;
+    /* transition: 1s; */
+}
+.travel5 .four h5 {
+    /* transform: translateX(1.2rem) translateY(0.9rem); */
+    transform: unset;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    /* color: white;
+    gap: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .four h5 img {
+    width: 4.3rem;
+    height: 3rem;
+}
+.travel5 .four .d4 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 0.5rem;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(15.3rem) translateY(15.3rem); */
+    transform: unset;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 92%;
+    margin-left: 85%;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+.travel5 .four p {
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    /* color: rgb(131, 143, 90); */
+    /* width: 20rem; */
+    width: 100%;
+    height: 25%;
+
+    letter-spacing: 0.05rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+.travel6 {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.travel6 .containertexts {
+    width: 75%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;*/
+    margin-bottom: 1rem; 
+}
+.travel6 .containerimages .hh1 {
+    font-size: 1.5rem;
+}
+.travel6 .containerimages .hh2 , .travel6 .containerimages .hh3{
+    font-size: 1.4rem;
+}
+
+.travel6 .containertexts .pp {
+    /* font-size: 1.2rem; */
+    /* color: rgb(131, 143, 90); */
+    margin-top: 1.2rem;
+    /* text-align: center; */
+}
+
+.travel6 .containerimages {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.travel6 .containerimages .one {
+    /* transition: 1s; */
+    order: 2;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.travel6 .containerimages .one .ho1 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    border-radius: 15px;
+}
+
+
+
+.travel6 .containerimages .two {
+    /* transition: 1s; */
+    width: 100%;
+    border-radius: 15px;
+    order: 1;
+    /* align-items: center; */
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.travel6 .containerimages .two .ho2 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 98%;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+
+.travel6 .containerimages .hh1 {
+    font-size: 1.7rem;
+    margin-left: 0rem;
+    margin-top: -0.5rem;
+}
+.travel6 .containerimages .hh2 {
+    /* display: inline;
+    color: red;
+    font-size: 1.5rem;
+    text-decoration: line-through; */
+    /* margin-right: 1rem; */
+    font-size: 1.3;
+    margin-left: 0rem;
+}
+.travel6 .containerimages p {
+    /* font-size: 1.2rem;
+    color: rgb(131, 143, 90);*/
+    margin-left: 0rem; 
+    /* text-align: center; */
+    display: block;
+    /* align-items: center; */
+}
+.travel6 .containerimages p img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -0.3rem;
+}
+
+.travel6 .containerimages .three {
+    /* transition: 1s; */
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    order: 3;
+    /* border: 2px solid white; */
+}
+
+.travel6 .containerimages .three .ho3 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.travel7 {
+    /* display: flex;
+    flex-direction: column; */
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 4rem 2rem;
+}
+
+.travel7 .containertexts {
+    /* width: 50%; */
+    width: 100%;
+    height: auto;
+    display: inline;
+    /* position: relative; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+.travel7 .containertexts .q {
+    font-size: 3.5rem;
+}
+.travel7 .containertexts .more {
+    /* display: inline-block; */
+    /* transform: translateX(71rem); */
+    transform: unset;
+    margin-left: 1.5rem;
+    /* text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px; */
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    /* transition: 0.6s; */
+}
+
+.travel7 .containerimages {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.travel7 .containerimages .one {
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    text-align: center;
+    /* transition: 1s; */
+}
+.travel7 .containerimages .one .m1 {
+    /* position: relative; */
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.593;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+
+.travel7 .containerimages .one .hh1 {
+    /* position: absolute; */
+    font-size: 3rem;
+    /* transform: translateX(2.3rem) translateY(2rem); */
+    margin-top: 18%;
+    margin-left: 14%;
+    /* color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .one .p1 {
+    /* position: absolute; */
+    font-size: 1.5rem;
+    margin-top: 20%;
+    margin-left: 21%;
+    /* color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(7rem); */
+}
+.travel7 .containerimages .one .p2 {
+    /* position: absolute; */
+    font-size: 1.5rem;
+    margin-top: 21.5%;
+    margin-left: 23%;
+    /* color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(9rem); */
+}
+
+
+.travel7 .containerimages .two {
+    /* position: relative;
+    transition: 1s;
+    display: flex; */
+    width: 100%;
+}
+
+.travel7 .containerimages .two .m2 {
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.593;
+    /* margin: 0.5rem; */
+    border-radius: 15px;
+}
+
+.travel7 .containerimages .two .hh21 {
+    /* position: absolute; */
+    font-size: 3rem;
+    margin-top: 4%;
+    margin-left: 5%;
+    transform: unset;
+    /* transform: translateX(2.3rem) translateY(2rem);
+    color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .two .hh22 {
+    /* position: absolute; */
+    font-size: 3rem;
+     /* transform: translateX(2.3rem) translateY(5rem); */
+     transform: unset;
+     margin-top: 9.5%;
+     margin-left: 5%;
+    /*color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .two .p21 {
+    /* position: absolute; */
+    font-size: 1.5rem;
+    /* color: white;
+    transition: 1s;*/
+    /* transform: translateX(2.3rem) translateY(10rem);  */
+    transform: unset;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+.travel7 .containerimages .two .p22 {
+    /* position: absolute; */
+    font-size: 1.5rem;
+    /* color: white;
+    transition: 1s;*/
+    /* transform: translateX(2.3rem) translateY(12rem);  */
+    transform: unset;
+    margin-top: 21%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+.travel8 {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 4rem 2rem;
+}
+
+.travel8 .containertexts {
+    width: 100%;
+    display: inline-block;
+   /* position: relative;
+    flex-direction: column; */
+    /* margin-bottom: 2rem; */
+}
+
+.travel8 .containertexts .q {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.travel8 .containertexts .more {
+    display: inline-block;
+    /* transform: translateX(33rem); */
+    transform: unset;
+    right: 0;
+    /* text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem; */
+    /* transition: 0.6s; */
+}
+
+
+
+.travel8 .containerimages {
+    /* display: flex; */
+    width: 100%;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.travel8 .containerimages .one {
+    width: 50%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    /* transition: 1s; */
+    border-radius: 15px;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.travel8 .containerimages p {
+     font-size: 1.2rem;
+    /*color: rgb(131, 143, 90); */
+    margin-left: 0rem;
+    /* text-align: center; */
+    display: block;
+    /* align-items: center; */
+}
+.travel8 .containerimages .bdt1 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+.travel8 .containerimages .hh1 {
+    font-size: 1.6rem;
+    margin-left: 0rem;
+}
+.travel8 .containerimages p img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-left: -0.3rem;
+}
+.travel8 .containerimages .one .m1 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 15px;
+}
+.travel8 .containerimages .one .hr1 {
+    width: 3.5rem;
+    height: 3.25rem;
+    /* position: absolute;
+    background-color: rgb(95, 95, 95); */
+    padding: 0.7rem;
+    /* border-radius: 6px; */
+    /* opacity: 70%; */
+    /* transform: translateX(30rem) translateY(2rem); */
+    transform: unset;
+     margin: 2rem;
+     margin-top: 2rem;
+    right: 0;
+}
+
+
+
+.travel8 .containerimages .two {
+    width: 50%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    transition: 1s; */
+    border-radius: 15px;
+    text-align: center
+    /* border: 2px solid white; */
+}
+
+.travel8 .containerimages .two .m2 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 15px;
+}
+
+.travel8 .containerimages .two .hr2 {
+    width: 3.5rem;
+    height: 3.25rem;
+    /* position: absolute;
+    background-color: rgb(95, 95, 95);
+    padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%;
+    transform: translateX(30rem) translateY(2rem); */
+    transform: unset;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 6%;
+}
+.travel8 .containerimages .hh2 {
+    font-size: 1.6rem;
+    margin-left: 0rem;
+}
+.travel8 .containerimages .bdt2 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+.travel8 .containerimages .three {
+    /* display: flex;
+    flex-direction: column;
+    transition: 1s; */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    /* border: 2px solid white; */
+}
+
+.travel8 .containerimages .three .m3 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 98%;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 15px;
+}
+
+.travel8 .containerimages .three .hr3 {
+     width: 3.5rem;
+    height: 3.25rem;
+    /*position: absolute;
+    background-color: rgb(95, 95, 95); */
+    /* padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%; */
+    /* transform: translateX(46rem) translateY(2rem); */
+    transform: unset;
+    right: 0;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.travel8 .containerimages .hh3 {
+    font-size: 1.6rem;
+    margin-left:0rem;
+}
+.travel8 .containerimages .bdt3 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+.travel9 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4rem 0.25rem 0rem 0.25rem;
+}
+
+.travel9 .two {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .two img {
+    /* margin: 0.25rem;
+    border-radius: 15px; */
+    /* width: 88.75rem;
+    height: 42.5rem; */
+    width: 99%;
+    height: auto;
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .two .h31 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 20%;
+    margin-left: 15%;
+    /* transform: translateX(20rem) translateY(20rem); */
+    transform: unset;
+    /* transition: 1s; */
+}
+.travel9 .two .h32 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 25%;
+    margin-left: 15%;
+    /* transform: translateX(28rem) translateY(25rem); */
+    transform: unset;
+    /* transition: 1s; */
+}
+
+
+.travel9 .one {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+
+.travel9 .one .one1 {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .one .one1 img {
+    /* margin: 0.25rem; */
+    /* border-radius: 15px; */
+    /* width: 44rem;
+    height: 24rem; */
+    width: 99%;
+    height: auto;
+    /* aspect-ratio: 1 / 0.545; */
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .ti-world {
+    /* position: absolute;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 5px; */
+    /* padding: 0.6rem;
+    font-size: 1.7rem; */
+    transform: translateX(2rem) translateY(2rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .h41 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 2rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(6rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .h42 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 2rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(9rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .p11 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    transform: translateX(2rem) translateY(13rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .book {
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    text-decoration: none; */
+    padding: 0.5rem 1.2rem;
+    /* opacity: 60%;
+    background-color: white; */
+    border-radius: 25px;
+    /* border: 2px solid rgb(2, 2, 71); */
+    transform: translateX(2rem) translateY(16rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .book .h4b {
+    /* display: flex; */
+    font-size: 1.3rem;
+    /* color: rgb(2, 2, 71);
+    transition: 1s; */
+}
+
+
+
+.travel9 .one .one2 {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .one .one2 img {
+    /* margin: 0.25rem; */
+    /* border-radius: 15px; */
+    /* width: 44rem;
+    height: 18rem; */
+    width: 99%;
+    height: auto;
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .one .one2 .pp {
+    /* position: absolute;
+    color: white; */
+    font-size: 1.3rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(7rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one2 .h33 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 3rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(10rem);
+    /* transition: 1s; */
+}
+
+
+
+
+
+
+
+footer {
+    /* display: flex;
+    justify-content: space-between; */
+    /* height: 30rem; */
+    width: 98%;
+    height: auto;
+    /* aspect-ratio: 1 / 0.478; */
+    /* margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+    background-color: black;
+    border-radius: 15px; */
+}
+
+footer .one {
+    /* width: 44rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .one h3 {
+    /* color: white;
+    display: inline-block; */
+    /* letter-spacing: 0.2rem; */
+    /* cursor: pointer; */
+    /* margin-bottom: 0.5rem; */
+    /* transition: 0.6s; */
+    font-size: 1rem;
+}
+footer .one p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+footer .one h5 {
+    /* color: white; */
+    font-size: 0.5rem;
+    /* letter-spacing: 0.2rem; */
+    /* transform: translateX(0) translateY(15rem); */
+    transform: unset;
+    margin-top: 35%
+}
+
+
+
+
+
+footer .two {
+    /* width: 24rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .two h4 {
+    /* color: white;
+    display: inline-block; */
+    font-size: 1rem;
+    /* letter-spacing: 0.2rem;
+    cursor: pointer; */
+    margin-bottom: 0.5rem;
+    /* transition: 0.4s; */
+}
+footer .two p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+
+
+footer .three {
+    /* width: 24rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .three h4 {
+    /* display: inline-block;
+    color: white; */
+    font-size: 1rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    margin-bottom: 0.5rem;
+    /* transition: 0.4s; */
+}
+footer .three p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+footer .four {
+    /* width: 40.75rem; */
+    width: 40%;
+    padding: 1.3rem 1.5rem;
+}
+footer .four .get {
+    /* display: inline-block;
+    color: white; */
+    font-size: 1rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    margin-bottom: 0.5rem;
+    margin-left: 0rem;
+    /* transition: 0.4s; */
+}
+footer .four .insub {
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 0.5rem;
+}
+footer .four .insub input {
+    /* background-color: rgb(39, 39, 39); */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    /* width: 29rem; */
+    width: 50%;
+    transform: translateX(0rem);
+    /* border: 2px solid rgb(87, 86, 86); */
+    border-radius: 4px;
+}
+footer .four .insub .sub {
+    padding: 0.5rem 1rem;
+    /* background-color: white; */
+    transform: translateX(-0.7rem);
+    font-size: 1rem;
+    /* cursor: pointer; */
+    border-radius: 4px;
+    z-index: 100;
+}
+footer .four .soc {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    gap: unset;
+    width: 80%;
+}
+footer .four .soc img {
+    width: 2.8rem;
+    height: 2.8rem;
+    /* background-color: rgb(39, 39, 39); */
+    /* border-radius: 50%; */
+    /* cursor: pointer; */
+    padding: 0.4rem;
+    /* transition: 1s; */
+}
+footer .four .pt {
+    display: flex;
+    object-fit: cover;
+    margin-top: 55%;
+    /* position: relative; */
+}
+
+footer .four .pt .p1 {
+    /* transform: translateX(13rem) translateY(10.5rem); */
+    transform: unset;
+    /* transform: translateY(15h); */
+    font-size: 0.7rem;
+    bottom: 0;
+    /* margin-top: 100%; */
+}
+footer .four .pt .p2 {
+    /* transform: translateX(26rem) translateY(8.9rem); */
+    transform: unset;
+    font-size: 0.7rem;
+}
+
+
+
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+        
+html {
+    font-size: 10px;
+}
+
+header{
+    padding: 0.5rem 2.5rem;
+}
+
+header nav{
+    width: 70%;
+}
+
+header nav ul{
+    display: none;
+}
+
+header nav div {
+    width: 100%;
+    justify-content: end;
+    gap: 1rem;
+}
+
+header nav div img {
+    width: 27px;
+    height: 27px;
+}
+
+
+
+
+
+
+.travel1 {
+    padding: 8rem 2rem 3rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.travel1 .containertexts {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.travel1 .containertexts img {
+    width: 28px;
+    height: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4.3rem;
+}
+h2 {
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+}
+
+.travel1 .containertexts .containerlocation {
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: unset;
+    width: 75%;
+    padding: 0.3rem 0.8rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+}
+
+.travel1 .containertexts .containerlocation img {
+    width: 35px;
+    height: auto;
+    margin-left: 0;
+}
+
+.travel1 .containertexts .containerlocation h4{
+    font-size: 1.6rem;
+}
+
+.travel1 .containertexts .containerlocation .text p{
+    font-size: 1.2rem;
+}
+
+.travel1 .containertexts .containerlocation a {
     
+    padding: 0.3rem 1.5rem;
+    margin-left: 0;
+}
+
+.travel1 .containertexts .containerlocation .line{
+    /* display: none; */
+    /* background-color: rgb(164, 165, 165); */
+    height: 3rem;
+    width: 3px;
+}
+
+
+
+
+
+.travel1 .containerimages {
+    width: 100%;
+}
+
+
+.travel1 .containerimages .img1 {
+    width: 50%;
+}
+
+.travel1 .containerimages .img1 .text1 {
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3); */
+    border-radius: 1rem;
+    padding: 0.4rem 0.9rem;
+    /* margin: 120px 150px 0 0; */
+    margin: 0;
+    margin-top: 22%;
+    margin-right: 25%;
+    /* z-index: 100;
+    transition: 0.5s; */
+}
+
+.travel1 .containerimages .img1 .text1 .bold {
+    font-size: 1.3rem;
+}
+.travel1 .containerimages .img1 .text1 .p {
+    margin-left: 5%;
+    font-size: 1.2rem;
+    line-height: 1..3rem;
+}
+
+.travel1 .containerimages img {
+    margin: 0.5rem;
+    border-radius: 1.8rem;
+    /* transition: 1s; */
+}
+.travel1 .containerimages img:hover {
+    transform: scale(1.04);
+}
+
+.travel1 .containerimages .img1 .one {
+    /* width: 19rem;
+    height: 24rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.263;
+    /* object-fit: cover; */
+    /* display:block; */
+}
+.travel1:has(.one:hover) .text1 {
+    filter: blur(2px);
+    transform: translateX(-12vw);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img1 .three {
+    /* width: 29rem;
+    height: auto; */
+    width:100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+.travel1:has(.three:hover) .containerlocation {
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+
+
+.travel1 .containerimages .img2 {
+    margin-top: 12%;
+    width: 50%;
+}
+
+.travel1 .containerimages .img2 .text2 {
+    /* display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 80%;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid rgba(133, 129, 129, 0.3);
+    border-radius: 15px; */
+    border-radius: 1rem;
+    padding: 0.3rem 0.8rem;
+    margin: 0;
+    margin-inline-start: 10% ;
+    margin-top: -2%;
+    /* margin: -30px 0 0 50px; */
+    /* margin: 0; */
+    /* transition: 0.5s; */
+    /* z-index: 100; */
+}
+
+
+.travel1 .containerimages .img2 .text2 .bold {
+    font-size: 1.3rem;
+    /* line-height: 1rem; */
+}
+.travel1 .containerimages .img2 .text2 .p {
+    margin-left: 5%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.travel1 .containerimages .img2 .two {
+    /* width: 29rem;
+    height: 23rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+.travel1:has(.two:hover) .text2 {
+    /* filter: blur(1.5px); */
+    transform: translateY(-3rem);
+    /* transform: scale(1.5); */
+}
+
+.travel1 .containerimages .img2 .four {
+    /* height: 24rem;
+    width: 20rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.2;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.travel2 {
+    /* display: flex; */
+    flex-direction:column-reverse;
+    padding: 4rem 2rem;
+    justify-content: unset;
+    align-items: unset;
+}
+
+.travel2 .containerimages {
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* align-items: center; */ 
+    aspect-ratio: 1 / 0.72;
+}
+.travel2 .containerimages:hover {
+    transform: scale(1.03);
+}
+
+.travel2 .containerimages .img1 {
+    /* width: 25rem;
+    height: 40rem; */
+    width: 37%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    border-radius: 25px;
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2 .containerimages .img2 {
+    /* width: 20rem;
+    height: 30rem; */
+    width: 32%;
+    height: auto;
+    aspect-ratio: 1 / 1.5;
+    border-radius: 25px;
+    /* transform: skewY(5deg); */
+    margin: 1px;
+    /* margin-left: 15rem; */
+    margin-left: 20%;
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2:has(.containerimages:hover) .img2 {
+    /* filter: blur(4px); */
+    margin-left: 38%;
+}
+
+.travel2 .containerimages .img3 {
+    /* width: 15rem;
+    height: 20srem; */
+    width: 27%;
+    height: auto;
+    aspect-ratio: 1 / 1.333;
+    border-radius: 25px;
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* margin-left: 30rem; */
+    margin-left: 35%;
+    /* position: absolute;
+    transition: 1s; */
+}
+.travel2:has(.containerimages:hover) .img3 {
+    /* filter: blur(4px); */
+    margin-left: 70.7%;
+}
+
+
+
+.travel2 .containertexts {
+    width: 75%;
+}
+
+.travel2 .containertexts .type1 {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: unset;
+}
+
+.travel2 .containertexts .type1 .text {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0.5rem 1.5rem;
+    /* border: 2px groove rgba(180, 180, 180, 0.1); */
+    border-radius: 10px;
+    /* opacity: 90%;
+    background-color: rgba(250, 248, 248, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s; */
+}
+.travel2 .containertexts .type1 .text .t1 h4 {
+    font-size: 1.4rem;
+}
+.travel2 .containertexts .type1 .text .t1 p {
+    font-size: 1.1rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 0rem;
+}
+.travel2 .containertexts .type1 .text img {
+    /* position: absolute; */
+    /* rotate: 40deg;
+    background-color: rgb(230, 224, 224);
+    border-radius: 60%; */
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+    margin-left: 0.5rem;
+    margin-right: -1rem;
+    /* transition: 0.4s; */
+}
+
+.travel2 .containertexts .type2 {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 1.5rem 0;
+}
+
+.travel2 .containertexts .type2 .book {
+    /* display: flex;
+    align-items: center; */
+    gap: 1.5rem;
+    /* text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white; */ 
+    padding: 0.3rem 1.5rem;
+    /* margin-left: 3rem; */
+    /* border-radius: 30px; */
+    /* transition: 1s; */
+}
+
+.travel2 .containertexts .type2 .learn {
+    /* text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(6, 6, 117); */
+    margin-right: 5rem;
+}
+
+.travel2 .containertexts .type2 .book h4 {
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+}
+
+
+
+
+.travel3 {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    padding: 4rem 2rem;
+}
+
+.travel3 .containertexts {
+    width: 75%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+}
+
+.travel3 .containertexts .pp {
+    font-size: 1.3rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 0.5rem;
+    /* text-align: center; */
+}
+
+.travel3 .containerimages {
+    /* width: 100%; */
+    margin: 1.5rem 0;
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    /* align-items: end; */
+    /* transition: 1s; */
+}
+
+.travel3 .containerimages .img1 {
+    /* display: flex;
+    position: relative; */
+    /* text-align: center; */
+    /* transition: 1s; */
+    justify-content: end;
+    width: 45%;
+        height: auto;
+        aspect-ratio: 1 / 1.5;
+}
+
+.travel3 .containerimages .img1 img {
+    /* width: 24rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.travel3 .containerimages .img1 .ti-arrows-corner {
+    /* color: white;
+    position: absolute; */
+    font-size: 2.5rem;
+    transform: unset;
+    /* transform: translateY(-31vh); */
+        /* rotate: 90deg; */
+    padding: 1.2rem;
+    /* margin: 1rem; */
+    /* background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.7s; */
+}
+
+.travel3 .containerimages .img1 h4 {
+    /* position: absolute;
+    color: white; */
+    /* transform: translateY(33rem) translateX(2rem); */
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+    transform: unset;
+    font-size: 2.5rem;
+    margin: 2rem;
+    /* cursor: pointer;
+    transition: 0.7s; */
+}
+
+
+
+.travel3 .containerimages .img2 {
+    /* display: flex;
+    position: relative;
+    transition: 1s; */
+    justify-content: end;
+    width: 40%;
+    height: auto;
+    aspect-ratio: 1 / 1.3;
+}
+
+.travel3 .containerimages .img2 img {
+    /* width: 24rem;
+    height: 38rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img2 .ti-arrows-corner {
+    /* color: white;
+    position: absolute; */
+    font-size: 2.5rem;
+    /* transform: translateY(-17rem); */
+    transform: unset;
+    /* rotate: 90deg; */
+    /* padding: 1rem; */
+    /* margin: 1rem; */
+    /* background-color: rgba(136, 136, 138, 0.5);
+    border-radius: 50%;
+    transition: 0.7s; */
+}
+
+.travel3 .containerimages .img2 h2 {
+    /* position: absolute;
+    color: white;
+    display: flex; */
+    /* transform: translateY(31rem) translateX(2rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 2rem;
+    font-size: 3rem;
+    /* transition: 0.7s; */
+}
+.travel3 .containerimages .img2 .ti-control-record {
+    font-size: 2rem;
+    transform: translateY(0.5rem);
+}
+.travel3 .containerimages .img2 .sunny {
+    font-size: 2rem;
+}
+
+
+
+.travel3 .containerimages .img3 {
+    /* position: relative;
+    display: flex; */
+    width: 35%;
+    height: auto;
+    aspect-ratio: 1 / 1.4;
+}
+
+.travel3 .containerimages .img3 img {
+    /* width: 24rem;
+    height: 35rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img3 .i1 {
+    /* position: absolute; */
+    transform: translateX(1rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i2 {
+    /* position: absolute; */
+    transform: translateX(3rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i3 {
+    /* position: absolute; */
+    transform: translateX(5rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i4 {
+    /* position: absolute; */
+    transform: translateX(7rem) translateY(1.5rem);
+    width: 3rem;
+    height: 3.2rem;
+}
+.travel3 .containerimages .img3 .i5 {
+    /* position: absolute; */
+    /* transform: translateY(21rem) translateX(3rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 9rem 1rem;
+}
+.travel3 .containerimages .img3 .i6 {
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    /* transform: translateY(28rem) translateX(3rem); */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 1rem;
+    /* position: absolute; */
+}
+
+
+.travel3 .containerimages .img4 {
+    /* display: flex;
+    position: relative;
+    transition: 1s; */
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-top: 1rem;
+}
+
+.travel3 .containerimages .img4 img {
+    /* width: 46rem;
+    height: 42rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.travel3 .containerimages .img4 .span {
+    /* position: absolute;
+    display: flex; */
+    transform: translateX(2rem) translateY(1.5rem);
+    gap: 0.6rem;
+
+    width: 100%;
+}
+.travel3 .containerimages .img4 .span span {
+    /* width: 8rem;
+    height: 0.5rem; */
+    /* background-color: gray; */
+    /* border-radius: 5px; */
+    width: 16.5%;
+    height: auto;
+    aspect-ratio: 1 / 0.1;
+}
+
+.travel3 .containerimages .img4 p {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 1.8rem;
+    /* color: white; */
+    /* transform: translateX(3rem) translateY(34rem); */
+    /* transition: 1s; */
+    transform: unset;
+    left: 0;
+    bottom: 0;
+    margin: 2rem;
+}
+
+.travel3 .containerimages .img4 .d1 {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 2rem;
+    /* color: white;
+    opacity: 80%; */
+    padding: 0.5rem 1.5rem;
+    background-color: gray;
+    /* border-radius: 50%;
+    border: 2px solid gray; */
+    /* transform: translateX(35rem) translateY(35rem); */
+
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    margin: 2rem;
+    margin-right: 8rem;
+
+    /* transition: 1s; */
+}
+
+.travel3 .containerimages .img4 .d2 {
+    /* position: absolute;
+    cursor: pointer; */
+    font-size: 2rem;
+    /* color: gray;
+    opacity: 80%; */
+    padding: 0.5rem 1.5rem;
+    /* background-color: white;
+    border-radius: 50%;
+    border: 2px solid white; */
+    /* transform: translateX(40rem) translateY(35rem); */
+    transform: unset;
+    right: 0;
+    bottom: 0;
+    margin: 2rem;
+    /* transition: 1s; */
+}
+
+
+
+
+
+
+
+
+.travel4 {
+    /* display: flex; */
+    padding: 4rem 2rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.8;
+    justify-content: space-between;
+}
+
+.travel4 .one {
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+    perspective: 1000px; */
+}
+
+.travel4 .two {
+    display: none;
+    /* width: 47%;
+    height: 100%;
+    position: relative;
+    perspective: 1000px; */
+}
+
+.travel4 .one .oneone {
+     position: relative;
+    /*display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    transform-style: preserve-3d; */
+}
+.travel4 .one .oneone .containerimages {
+    transition: 1s;
+    /*width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; */
+}
+.travel4 .one .oneone .containerimages img {
+    /* width: 56.5rem;
+    height: 40rem; */
+    border-radius: 25px;
+    /* object-fit: cover;
+    transition: 1s; */
+    width: 100%;
+    height: 100%;
+}
+
+.travel4 .one .oneone .containertexts {
+    /* width: 100%;
+    height: 100%;
+    position: absolute; */
+    border-radius: 25px;
+    /* background-color: rgb(240, 240, 240); */
+    padding: 2.5rem 1.8rem 1.8rem 1.8rem;
+    /* backface-visibility: hidden;
+    transform: rotateY(180deg); */
+} 
+.travel4 .hh1 {
+    font-size: 4.5rem;
+    margin-bottom: 0rem;
+}
+.travel4 .hh2 {
+    font-size: 3.5rem;
+}
+.travel4 .one .oneone .containertexts .pp {
+    font-size: 1.5rem;
+    /* color: rgb(131, 143, 90); */
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.travel4 .one .oneone .containertexts .book {
+    /* display: flex;
+    align-items: center; */
+    gap: 2rem;
+    width: 16rem;
+    /* text-decoration: none;
+    background-color: rgb(2, 2, 71);
+    color: white; */
+    padding: 0.8rem 2rem;
+    margin-left: 3rem;
+    /* border-radius: 30px;
+    transition: 1s; */
+}
+
+
+
+
+
+
+.travel5 {
+    /* display: flex; */
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    /* align-items: unset; */
+}
+
+.travel5 .one {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+
+}
+.travel5 .one h4 {
+    font-size: 4rem;
+    width: 100%;
+    height: 35%;
+    /* position: relative;
+    transition: 1s; */
+    margin-bottom: 0rem;
+}
+.travel5 .one .m1 {
+    /* position: relative; */
+    /* width: 30rem;
+    height: 26rem; */
+    width: 100%;
+    height: 65%;
+    /* aspect-ratio: 1 / 1; */
+    bottom: 0;
+    border-radius: 25px;
+    /* transition: 1s; */
+}
+.travel5 .one h5 {
+    /* transform: translateX(2rem) translateY(20rem); */
+    transform: unset;
+    font-size: 2rem;
+    margin-top: 60%;
+    margin-left: 5%;
+    /* color: white;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .one h5 img {
+    width: 4rem;
+    height: 4rem;
+}
+.travel5 .one .d1 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 1rem;
+    /* opacity: 90%; */
+    /* transform: translateX(24rem) translateY(39rem); */
+    transform: unset;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 145%;
+    margin-left: 86%;
+    /* cursor: pointer;
+    border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+.travel5 .two {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+}
+.travel5 .two .m2 {
+    /* position: relative; */
+    /* width: 35rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    /* transition: 1s; */
+}
+.travel5 .two h5 {
+    /* transform: translateX(2rem) translateY(1rem); */
+    transform: unset;
+    font-size: 2rem;
+    /* color: white; */
+    gap: 0.5rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    /* display: flex;
+    cursor: pointer; */
+    align-items: center;
+    /* position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .two h5 img {
+    width: 5.3rem;
+    height: 4rem;
+}
+.travel5 .two .d2 {
+    /* position: absolute;
+    background-color: gray; */
+    /* border-radius: 50%; */
+    padding: 1rem;
+    margin-top: 145%;
+    margin-left: 86%;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(29.5rem) translateY(39.5rem); */
+    transform: unset;
+    width: 4rem;
+    height: 4rem;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+.travel5 .three {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    margin-top: 1rem;
+}
+
+.travel5 .three .m3 {
+    /* position: relative; */
+    /* width: 30rem;
+    height: 45rem; */
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    /* transition: 1s; */
+    
+}
+
+.travel5 .three h5 {
+    /* transform: translateX(2rem) translateY(1rem); */
+    transform: unset;
+    font-size: 2rem;
+    margin-top: 4%;
+    margin-left: 4%;
+
+    /* color: white;
+    cursor: pointer;
+    gap: 0.5rem; */
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .three h5 img {
+    width: 4rem;
+    height: 4rem;
+}
+.travel5 .three .d3 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 1rem;
+    margin-top: 145%;
+    margin-left: 86%;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(24.5rem) translateY(39.5rem); */
+    transform: unset;
+    width: 4rem;
+    height: 4rem;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+
+
+
+.travel5 .four {
+    /* display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s; */
+    width: 44%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    margin-top: 1rem;
+}
+
+.travel5 .four .m4 {
+    /* position: relative; */
+    /* width: 20rem;
+    height: 20rem; */
+    width: 100%;
+    height: 66.7%;
+    border-radius: 25px;
+    /* transition: 1s; */
+}
+.travel5 .four h5 {
+    /* transform: translateX(1.2rem) translateY(0.9rem); */
+    transform: unset;
+    font-size: 2rem;
+    margin-top: 4%;
+    margin-left: 4%;
+    /* color: white;
+    gap: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: 0.7s; */
+}
+.travel5 .four h5 img {
+    width: 5.3rem;
+    height: 4rem;
+}
+.travel5 .four .d4 {
+    /* position: absolute;
+    background-color: gray;
+    border-radius: 50%; */
+    padding: 1rem;
+    /* opacity: 90%;
+    cursor: pointer; */
+    /* transform: translateX(15.3rem) translateY(15.3rem); */
+    transform: unset;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 92%;
+    margin-left: 85%;
+    /* border: 2px solid gray;
+    transition: 0.8s; */
+}
+.travel5 .four p {
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    /* color: rgb(131, 143, 90); */
+    /* width: 20rem; */
+    width: 100%;
+    height: 25%;
+
+    letter-spacing: 0.05rem;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+.travel6 {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.travel6 .containertexts {
+    width: 75%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;*/
+    margin-bottom: 1rem; 
+}
+
+.travel6 .containerimages {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.travel6 .containerimages .one {
+    /* transition: 1s; */
+    order: 2;
+    border-radius: 25px;
+    width: 50%;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.travel6 .containerimages .one .ho1 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    border-radius: 25px;
+}
+
+
+
+.travel6 .containerimages .two {
+    /* transition: 1s; */
+    width: 100%;
+    border-radius: 25px;
+    order: 1;
+    /* align-items: center; */
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.travel6 .containerimages .two .ho2 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 98%;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.travel6 .containerimages .hh1 {
+    font-size: 2rem;
+    margin-left: 0rem;
+    margin-top: -0.5rem;
+}
+.travel6 .containerimages .hh2 , .travel6 .containerimages .hh3{
+    /* display: inline;
+    color: red;
+    font-size: 1.5rem;
+    text-decoration: line-through; */
+    /* margin-right: 1rem; */
+    font-size: 1.7;
+    margin-left: 0rem;
+}
+.travel6 .containerimages p {
+    font-size: 1.4rem;
+    /*color: rgb(131, 143, 90);*/
+    margin-left: 0rem; 
+    /* text-align: center; */
+    display: block;
+    /* align-items: center; */
+}
+.travel6 .containerimages p img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.3rem;
+}
+
+.travel6 .containerimages .three {
+    /* transition: 1s; */
+    width: 50%;
+    border-radius: 25px;
+    text-align: center;
+    order: 3;
+    /* border: 2px solid white; */
+}
+
+.travel6 .containerimages .three .ho3 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.travel7 {
+    /* display: flex;
+    flex-direction: column; */
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 4rem 2rem;
+}
+
+.travel7 .containertexts {
+    /* width: 50%; */
+    width: 100%;
+    height: auto;
+    display: inline;
+    /* position: relative; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+.travel7 .containertexts .q {
+    font-size: 4rem;
+}
+.travel7 .containertexts .more {
+    /* display: inline-block; */
+    /* transform: translateX(71rem); */
+    transform: unset;
+    margin-left: 1.5rem;
+    /* text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px; */
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    /* transition: 0.6s; */
+}
+
+.travel7 .containerimages {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.travel7 .containerimages .one {
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    text-align: center;
+    /* transition: 1s; */
+}
+.travel7 .containerimages .one .m1 {
+    /* position: relative; */
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.593;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.travel7 .containerimages .one .hh1 {
+    /* position: absolute; */
+    font-size: 3.5rem;
+    /* transform: translateX(2.3rem) translateY(2rem); */
+    margin-top: 18%;
+    margin-left: 12%;
+    /* color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .one .p1 {
+    /* position: absolute; */
+    font-size: 1.8rem;
+    margin-top: 20%;
+    margin-left: 21%;
+    /* color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(7rem); */
+}
+.travel7 .containerimages .one .p2 {
+    /* position: absolute; */
+    font-size: 1.5rem;
+    margin-top: 21.5%;
+    margin-left: 23%;
+    /* color: white;
+    transition: 1s;
+    transform: translateX(2.3rem) translateY(9rem); */
+}
+
+
+.travel7 .containerimages .two {
+    /* position: relative;
+    transition: 1s;
+    display: flex; */
+    width: 100%;
+}
+
+.travel7 .containerimages .two .m2 {
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.593;
+    /* margin: 0.5rem; */
+    border-radius: 25px;
+}
+
+.travel7 .containerimages .two .hh21 {
+    /* position: absolute; */
+    font-size: 3.5rem;
+    margin-top: 4%;
+    margin-left: 5%;
+    transform: unset;
+    /* transform: translateX(2.3rem) translateY(2rem);
+    color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .two .hh22 {
+    /* position: absolute; */
+    font-size: 3.5rem;
+     /* transform: translateX(2.3rem) translateY(5rem); */
+     transform: unset;
+     margin-top: 9.5%;
+     margin-left: 5%;
+    /*color: white;
+    transition: 1s; */
+}
+.travel7 .containerimages .two .p21 {
+    /* position: absolute; */
+    font-size: 1.8rem;
+    /* color: white;
+    transition: 1s;*/
+    /* transform: translateX(2.3rem) translateY(10rem);  */
+    transform: unset;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+.travel7 .containerimages .two .p22 {
+    /* position: absolute; */
+    font-size: 1.8rem;
+    /* color: white;
+    transition: 1s;*/
+    /* transform: translateX(2.3rem) translateY(12rem);  */
+    transform: unset;
+    margin-top: 21%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+.travel8 {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 4rem 2rem;
+}
+
+.travel8 .containertexts {
+    width: 100%;
+    display: inline-block;
+   /* position: relative;
+    flex-direction: column; */
+    /* margin-bottom: 2rem; */
+}
+
+.travel8 .containertexts .q {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.travel8 .containertexts .more {
+    display: inline-block;
+    /* transform: translateX(33rem); */
+    transform: unset;
+    right: 0;
+    /* text-decoration: none;
+    border: 3px solid rgb(2, 2, 71);
+    border-radius: 30px;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem; */
+    /* transition: 0.6s; */
+}
+
+
+
+.travel8 .containerimages {
+    /* display: flex; */
+    width: 100%;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.travel8 .containerimages .one {
+    width: 50%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    /* transition: 1s; */
+    border-radius: 25px;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+.travel8 .containerimages p {
+     font-size: 1.4rem;
+    /*color: rgb(131, 143, 90); */
+    margin-left: 0rem;
+    /* text-align: center; */
+    display: block;
+    /* align-items: center; */
+}
+.travel8 .containerimages .bdt1 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+.travel8 .containerimages .hh1 {
+    font-size: 2rem;
+    margin-left: 0rem;
+}
+.travel8 .containerimages p img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: -0.3rem;
+}
+.travel8 .containerimages .one .m1 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 25px;
+}
+.travel8 .containerimages .one .hr1 {
+    width: 4.5rem;
+    height: 4.25rem;
+    /* position: absolute;
+    background-color: rgb(95, 95, 95); */
+    padding: 0.7rem;
+    /* border-radius: 6px; */
+    /* opacity: 70%; */
+    /* transform: translateX(30rem) translateY(2rem); */
+    transform: unset;
+     margin: 3rem;
+     /* margin-top: 2rem; */
+    right: 0;
+}
+
+
+
+.travel8 .containerimages .two {
+    width: 50%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    transition: 1s; */
+    border-radius: 25px;
+    text-align: center
+    /* border: 2px solid white; */
+}
+
+.travel8 .containerimages .two .m2 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 97%;
+    height: auto;
+    aspect-ratio: 1 / 0.735;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 25px;
+}
+
+.travel8 .containerimages .two .hr2 {
+    width: 4.5rem;
+    height: 4.25rem;
+    /* position: absolute;
+    background-color: rgb(95, 95, 95);
+    padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%;
+    transform: translateX(30rem) translateY(2rem); */
+    transform: unset;
+    right: 0;
+    margin-top: 6%;
+    margin-right: 6%;
+}
+.travel8 .containerimages .hh2 {
+    font-size: 2rem;
+    margin-left: 0rem;
+}
+.travel8 .containerimages .bdt2 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+.travel8 .containerimages .three {
+    /* display: flex;
+    flex-direction: column;
+    transition: 1s; */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    /* border: 2px solid white; */
+}
+
+.travel8 .containerimages .three .m3 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 98%;
+    height: auto;
+    aspect-ratio: 1 / 0.5;
+    /* margin: 0.5rem; */
+    /* margin-bottom: 1rem; */
+    border-radius: 25px;
+}
+
+.travel8 .containerimages .three .hr3 {
+     width: 4.5rem;
+    height: 4.25rem;
+    /*position: absolute;
+    background-color: rgb(95, 95, 95); */
+    /* padding: 0.7rem;
+    border-radius: 6px;
+    opacity: 70%; */
+    /* transform: translateX(46rem) translateY(2rem); */
+    transform: unset;
+    right: 0;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.travel8 .containerimages .hh3 {
+    font-size: 2rem;
+    margin-left:0rem;
+}
+.travel8 .containerimages .bdt3 {
+    /* display: inline;
+    color: red; */
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+.travel9 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4rem 0.25rem 0rem 0.25rem;
+}
+
+.travel9 .two {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .two img {
+    /* margin: 0.25rem;
+    border-radius: 15px; */
+    /* width: 88.75rem;
+    height: 42.5rem; */
+    width: 99%;
+    height: auto;
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .two .h31 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 20%;
+    margin-left: 15%;
+    /* transform: translateX(20rem) translateY(20rem); */
+    transform: unset;
+    /* transition: 1s; */
+}
+.travel9 .two .h32 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 25%;
+    margin-left: 15%;
+    /* transform: translateX(28rem) translateY(25rem); */
+    transform: unset;
+    /* transition: 1s; */
+}
+
+
+.travel9 .one {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+
+.travel9 .one .one1 {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .one .one1 img {
+    /* margin: 0.25rem; */
+    /* border-radius: 15px; */
+    /* width: 44rem;
+    height: 24rem; */
+    width: 99%;
+    height: auto;
+    /* aspect-ratio: 1 / 0.545; */
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .ti-world {
+    /* position: absolute;
+    color: white;
+    background-color: rgb(53, 52, 52);
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 5px; */
+    /* padding: 0.6rem;*/
+    font-size: 2rem; 
+    transform: translateX(2rem) translateY(2rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .h41 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 3rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(6rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .h42 {
+    /* position: absolute;
+    cursor: pointer;
+    color: white; */
+    font-size: 3rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(10rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .p11 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    transform: translateX(2rem) translateY(15rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one1 .book {
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    text-decoration: none; */
+    padding: 0.5rem 1.2rem;
+    /* opacity: 60%;
+    background-color: white; */
+    border-radius: 25px;
+    /* border: 2px solid rgb(2, 2, 71); */
+    transform: translateX(2rem) translateY(19rem);
+    transition: 1s;
+}
+.travel9 .one .one1 .book .h4b {
+    /* display: flex; */
+    font-size: 1.8rem;
+    /* color: rgb(2, 2, 71);
+    transition: 1s; */
+}
+
+
+
+.travel9 .one .one2 {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+.travel9 .one .one2 img {
+    /* margin: 0.25rem; */
+    /* border-radius: 15px; */
+    /* width: 44rem;
+    height: 18rem; */
+    width: 99%;
+    height: auto;
+    aspect-ratio: 1 / 0.478;
+    /* transition: 1s; */
+}
+.travel9 .one .one2 .pp {
+    /* position: absolute;
+    color: white; */
+    font-size: 1.6rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(7rem);
+    /* transition: 1s; */
+}
+.travel9 .one .one2 .h33 {
+    /* position: absolute;
+    color: white;
+    cursor: pointer; */
+    font-size: 3.5rem;
+    /* letter-spacing: 0.2rem; */
+    transform: translateX(2rem) translateY(10rem);
+    /* transition: 1s; */
+}
+
+
+
+
+
+
+
+footer {
+    /* display: flex;
+    justify-content: space-between; */
+    /* height: 30rem; */
+    width: 98%;
+    height: auto;
+    /* aspect-ratio: 1 / 0.478; */
+    /* margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+    background-color: black;
+    border-radius: 15px; */
+}
+
+footer .one {
+    /* width: 44rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .one h3 {
+    /* color: white;
+    display: inline-block; */
+    /* letter-spacing: 0.2rem; */
+    /* cursor: pointer; */
+    /* margin-bottom: 0.5rem; */
+    /* transition: 0.6s; */
+    font-size: 2rem;
+}
+footer .one p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+footer .one h5 {
+    /* color: white; */
+    font-size: 1rem;
+    /* letter-spacing: 0.2rem; */
+    /* transform: translateX(0) translateY(15rem); */
+    transform: unset;
+    margin-top: 35%
+}
+
+
+
+
+
+footer .two {
+    /* width: 24rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .two h4 {
+    /* color: white;
+    display: inline-block; */
+    font-size: 2rem;
+    /* letter-spacing: 0.2rem;
+    cursor: pointer; */
+    margin-bottom: 0.5rem;
+    /* transition: 0.4s; */
+}
+footer .two p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+
+
+footer .three {
+    /* width: 24rem; */
+    width: 20%;
+    padding: 1.3rem 1.5rem;
+}
+footer .three h4 {
+    /* display: inline-block;
+    color: white; */
+    font-size: 2rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    margin-bottom: 0.5rem;
+    /* transition: 0.4s; */
+}
+footer .three p {
+    /* color: rgb(155, 153, 153); */
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+footer .four {
+    /* width: 40.75rem; */
+    width: 40%;
+    padding: 1.3rem 1.5rem;
+}
+footer .four .get {
+    /* display: inline-block;
+    color: white; */
+    font-size: 2rem;
+    /* cursor: pointer;
+    letter-spacing: 0.2rem; */
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+    /* transition: 0.4s; */
+}
+footer .four .insub {
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 1.5rem;
+}
+footer .four .insub input {
+    /* background-color: rgb(39, 39, 39); */
+    padding: 0.9rem 1.3rem;
+    font-size: 1.5rem;
+    /* width: 29rem; */
+    width: 50%;
+    transform: translateX(0rem);
+    /* border: 2px solid rgb(87, 86, 86); */
+    border-radius: 4px;
+}
+footer .four .insub .sub {
+    padding: 0.9rem 1.3rem;
+    /* background-color: white; */
+    transform: translateX(-0.7rem);
+    font-size: 1.5rem;
+    /* cursor: pointer; */
+    border-radius: 4px;
+    z-index: 100;
+}
+footer .four .soc {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    gap: unset;
+    width: 80%;
+}
+footer .four .soc img {
+    width: 3.5rem;
+    height: 3.5rem;
+    /* background-color: rgb(39, 39, 39); */
+    /* border-radius: 50%; */
+    /* cursor: pointer; */
+    padding: 0.4rem;
+    /* transition: 1s; */
+}
+footer .four .pt {
+    display: flex;
+    object-fit: cover;
+    margin-top: 55%;
+    /* position: relative; */
+}
+
+footer .four .pt .p1 {
+    /* transform: translateX(13rem) translateY(10.5rem); */
+    transform: unset;
+    /* transform: translateY(15h); */
+    font-size: 1.3rem;
+    bottom: 0;
+    /* margin-top: 100%; */
+}
+footer .four .pt .p2 {
+    /* transform: translateX(26rem) translateY(8.9rem); */
+    transform: unset;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+
+
+
+
 }
 
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1279px)  {
+header nav {
+    
+    width: 75%;
+}
+header nav div {
+    
+    width: 35%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.travel1 {
+    padding: 4rem 2%;
+}
+
+.travel1 .containertexts {
+    width: 40%;
+}
+
+.travel1 .containerimages {
+    width: 60%;
+    /* display: flex; */
+}
+
+.travel1 .containertexts .containerlocation {
+    /* display: flex;
+    align-items: center;
+    position: relative; */
+    justify-content: space-between;
+    /* gap: 2.5rem; */
+    gap: unset;
+    width: 130%;
+    padding: 1rem 2rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    /* border: 2px groove rgba(180, 180, 180, 0.1); */
+    border-radius: 20px;
+    /* opacity: 90%; */
+    /* background-color: rgba(250, 248, 248, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: 0.5s; */
+}
+.travel1 .containertexts .containerlocation img {
+    width: 40px;
+    height: auto;
+    margin-left: 0rem;
+    /* background-color: rgb(203, 214, 214);
+    border-radius: 30px;
+    padding: 0.5rem; */
+}
+.travel1:has(.three:hover) .containerlocation {
+    filter: blur(2px);
+    transform: translateX(-120px);
+}
+
+
+.travel1 .containerimages .img1 {
+    width: 50%;
+}
+
+
+
+.travel1 .containerimages .img1 .one {
+    /* width: 19rem;
+    height: 24rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.263;
+    /* object-fit: cover; */
+    /* display:block; */
+
+} 
+
+.travel1 .containerimages .img1 .three {
+    /* width: 29rem;
+    height: auto; */
+    width:100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+
+
+.travel1 .containerimages .img2 {
+    margin-top: 12%;
+    width: 50%;
+}
+
+
+.travel1 .containerimages .img2 .two {
+    /* width: 29rem;
+    height: 23rem; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 0.793;
+}
+
+.travel1 .containerimages .img2 .four {
+    /* height: 24rem;
+    width: 20rem; */
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1.2;
+    margin-top: 0;
+}
+
+
+
+
+
+
+.travel2 {
+    padding: 4rem 2%;
+}
+
+.travel2 .containerimages {
+    width: 55%;   
+    height: auto;
+    aspect-ratio: 1 / 0.72;
+    position: relative;
+}
+
+
+
+.travel2 .containerimages .img1 {
+    /* width: 25rem;
+    height: 40rem; */
+    width: 37%;
+    height: auto;
+    aspect-ratio: 1 / 1.6;
+    /* border-radius: 25px; */
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2 .containerimages .img2 {
+    /* width: 20rem;
+    height: 30rem; */
+    width: 32%;
+    height: auto;
+    aspect-ratio: 1 / 1.5;
+    /* border-radius: 25px; */
+    /* transform: skewY(5deg); */
+    margin: 1px;
+    /* margin-left: 15rem; */
+    margin-left: 20%;
+    /* position: absolute;
+    transition: 1s; */
+}
+
+.travel2:has(.containerimages:hover) .img2 {
+    /* filter: blur(4px); */
+    margin-left: 38%;
+}
+
+.travel2 .containerimages .img3 {
+    /* width: 15rem;
+    height: 20srem; */
+    width: 27%;
+    height: auto;
+    aspect-ratio: 1 / 1.333;
+    /* border-radius: 25px; */
+    /* transform: skewY(5deg); */
+    /* margin: 1px; */
+    /* margin-left: 30rem; */
+    margin-left: 35%;
+    /* position: absolute;
+    transition: 1s; */
+}
+.travel2:has(.containerimages:hover) .img3 {
+    /* filter: blur(4px); */
+    margin-left: 70.7%;
+}
+
+.travel2 .containertexts {
+    width: 42%;
+}
+
+.travel2 .containertexts .type1 {
+    width: 100%;
+    margin-left: -2rem;
+    gap: unset;
+}
+
+
+
+
+
+.travel3 {
+    padding: 4rem 2%;
+}
+
+.travel3 .containerimages {
+    width: 100%;
+    /* margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    transition: 1s; */
+}
+
+.travel3 .containerimages .img1 {
+    width: 23%;
+}
+.travel3 .containerimages .img1 img {
+    /* width: 24rem;
+    height: 45rem; */
+    width: 100%;
+}
+.travel3 .containerimages .img1 .ti-arrows-corner {
+    transform: translateY(-15rem);
+}
+
+.travel3 .containerimages .img2 {
+    width: 18%;
+}
+.travel3 .containerimages .img2 img {
+    /* width: 24rem;
+    height: 38rem; */
+    width: 100%;
+}
+.travel3 .containerimages .img2 .ti-arrows-corner {
+    transform: translateY(-10rem);
+}
+
+.travel3 .containerimages .img3 {
+    width: 18%;
+}
+.travel3 .containerimages .img3 img {
+    /* width: 24rem;
+    height: 35rem; */
+    width: 100%;
+}
+.travel3 .containerimages .img3 .i6 {
+    width: 90%;
+    transform: translateY(28rem) translateX(1.5rem);
+    position: absolute;
+}
+
+.travel3 .containerimages .img4 {
+    width: 38%;
+}
+.travel3 .containerimages .img4 img {
+    /* width: 46rem;
+    height: 42rem; */
+    width: 100%;
+}
+.travel3 .containerimages .img4 .span span {
+    width: 6rem;
+    height: 0.5rem;
+    background-color: gray;
+    border-radius: 5px;
+}
+.travel3 .containerimages .img4 .d1 {
+    transform: translateX(25rem) translateY(35rem);
+}
+.travel3 .containerimages .img4 .d2 {
+    transform: translateX(30rem) translateY(35rem);
+}
+
+
+
+
+
+.travel4 {
+    padding: 4rem 2%;
+}
+
+.travel4 .one .oneone .containerimages img {
+    /* width: 56.5rem;
+    height: 40rem; */
+    width: 100%;
+    height: 100%;
+}
+.travel4 .hh1 {
+    font-size: 3.5rem;
+}
+.travel4 .hh2 {
+    font-size: 2.5rem;
+}
+
+.travel4 .two .twotwo .containerimages img {
+    /* width: 56.5rem;
+    height: 40rem; 
+    */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.travel5 {
+    padding: 4rem 2%;
+}
+.travel5 .one {
+    width: 20%;
+}
+.travel5 .one h4 {
+    font-size: 2.5rem;
+    margin-bottom: 7rem;
+}
+.travel5 .one .m1 {
+    /* width: 30rem;
+    height: 26rem; */
+    width: 100%;
+}
+.travel5 .one .d1 {
+    transform: translateX(14rem) translateY(39rem);
+    width: 4rem;
+    height: 4rem;
+}
+
+.travel5 .two {
+    width: 26%;
+}
+.travel5 .two .m2 {
+    /* width: 35rem;
+    height: 45rem; */
+    width: 100%;
+}
+.travel5 .two .d2 {
+    transform: translateX(19rem) translateY(39.5rem);
+    width: 4rem;
+    height: 4rem;
+}
+
+.travel5 .three {
+    width: 26%;
+}
+.travel5 .three .m3 {
+    /* width: 30rem;
+    height: 45rem; */
+    width: 100%;
+}
+.travel5 .three .d3 {
+    transform: translateX(19rem) translateY(39.5rem);
+    width: 4rem;
+    height: 4rem;
+}
+
+.travel5 .four {
+    width: 20%;
+}
+.travel5 .four .m4 {
+    /* width: 20rem;
+    height: 20rem; */
+    width: 100% ;
+}
+
+
+
+
+
+
+.travel6 {
+    padding: 4rem 2%;
+    width: 100%;
+}
+.travel6 .containerimages{
+    width: 100%;
+}
+
+.travel6 .containerimages .one {
+    width: 29%;
+}
+.travel6 .containerimages .one .ho1 {
+    /* width: 34rem;
+    height: 25rem; */
+   width: 96%;
+}
+.travel6 .containerimages .two {
+   width: 39%;
+}
+.travel6 .containerimages .two .ho2 {
+    /* width: 50rem;
+    height: 25rem; */
+    width: 97%;
+}
+
+.travel6 .containerimages .three {
+   width: 29%;
+}
+.travel6 .containerimages .three .ho3 {
+    /* width: 34rem;
+    height: 25rem; */
+   width: 96%;
+}
+
+
+
+
+
+
+.travel7 {
+    padding: 4rem 2%;
+}
+
+.travel7 .containertexts .more {
+    transform: translateX(45rem);
+}
+
+
+
+.travel7 .containerimages {
+    width: 100%;
+}
+.travel7 .containerimages .one {
+    width: 49%;
+}
+.travel7 .containerimages .one .m1 {
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+}
+
+.travel7 .containerimages .two {
+    width: 49%;
+}
+.travel7 .containerimages .two .m2 {
+    /* width: 59rem;
+    height: 35rem; */
+    width: 100%;
+}
+
+
+
+
+
+
+
+.travel8 {
+    padding: 4rem 2%;
+}
+
+
+.travel8 .containertexts .more {
+        transform: translateX(5rem);
+}
+
+
+
+.travel8 .containerimages {
+    width: 100%;
+}
+
+.travel8 .containerimages .one {
+   width: 29%;
+}
+.travel8 .containerimages .one .m1 {
+    /* width: 34rem;
+    height: 25rem; */
+   width: 96%;
+}
+.travel8 .containerimages .one .hr1 {
+    transform: translateX(22rem) translateY(2rem);
+}
+
+.travel8 .containerimages .two {
+    width: 29%;
+}
+.travel8 .containerimages .two .m2 {
+    /* width: 34rem;
+    height: 25rem; */
+    width: 96%;
+}
+.travel8 .containerimages .two .hr2 {
+    transform: translateX(22rem) translateY(2rem);
+}
+
+.travel8 .containerimages .three {
+   width: 39%;
+}
+.travel8 .containerimages .three .m3 {
+    /* width: 50rem;
+    height: 25rem; */
+   width: 97%;
+}
+.travel8 .containerimages .three .hr3 {
+    transform: translateX(31rem) translateY(2rem);
+}
+
+
+
+.travel9 {
+    /* padding: 5rem 0.25rem 0 0.25rem; */
+    width: 100%;
+}
+
+.travel9 .one {
+    width: 30%;
+}
+.travel9 .one .one1 img {
+    /* width: 44rem;
+    height: 24rem; */
+    width: 98%;
+}
+.travel9 .one .one1 .h41 {
+    font-size: 1.3rem;
+}
+.travel9 .one .one1 .h42 {
+    font-size: 1.3rem;
+}
+.travel9 .one .one1 .p11 {
+    font-size: 0.6rem;
+}
+.travel9 .one .one1 .book {
+    padding: 0.5rem 1.5rem;
+}
+
+.travel9 .one .one2 img {
+    /* width: 44rem;
+    height: 18rem; */
+    width: 98%;
+}
+
+
+
+
+
+
+.travel9 .two {
+    width: 70%;
+}
+.travel9 .two img {
+    /* width: 88.75rem;
+    height: 42.5rem; */
+    width: 99%;
+}
+.travel9 .two .h31 {
+    font-size: 2rem;
+}
+.travel9 .two .h32 {
+    font-size: 2rem;
+}
+
+
+
+
+
+
 }
